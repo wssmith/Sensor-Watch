@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\movement">
+      <UniqueIdentifier>{3361365b-3f20-44eb-b3e4-17a7499dd512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement">
+      <UniqueIdentifier>{b2e62540-13a3-4f27-a919-13ed255d8572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\template">
+      <UniqueIdentifier>{19e817c0-619a-4ec1-bfe1-7be93c1a02de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\template">
+      <UniqueIdentifier>{ce3d4e25-9cf2-4f3d-a586-4cdb61bbfe7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\watch_faces">
+      <UniqueIdentifier>{7346ea3b-ecf2-49b1-a1af-3807c73fb774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\watch_faces">
+      <UniqueIdentifier>{2f114be3-d995-44b4-a319-3bb1d9671dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\watch_faces\clock">
+      <UniqueIdentifier>{7a99ac05-5e9e-48d0-8aed-47aab6b1a6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\watch_faces\complication">
+      <UniqueIdentifier>{f0e19542-52f9-462c-9455-a8df649d1f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\watch_faces\demo">
+      <UniqueIdentifier>{ef04acaa-00f9-41a5-95f1-19fd712c0b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\watch_faces\sensor">
+      <UniqueIdentifier>{d77c74a1-0d34-4e3f-b29b-42e0d2b09fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\watch_faces\settings">
+      <UniqueIdentifier>{b3deda47-b71e-4ff7-aac1-927d2f99bb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\watch_faces\clock">
+      <UniqueIdentifier>{707dcaf8-5591-4b7a-8fc4-e59d92bbd136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\watch_faces\complication">
+      <UniqueIdentifier>{0d1f0922-cdb3-44e8-885f-cf3644b93276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\watch_faces\demo">
+      <UniqueIdentifier>{c6b3545b-bc0f-4a96-b02a-c7b47a930e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\watch_faces\settings">
+      <UniqueIdentifier>{596381f8-abd4-4c25-bb9e-0e1be633d05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\watch_faces\sensor">
+      <UniqueIdentifier>{b788123e-a800-4e2a-9a8d-ce50254b4940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\alt_fw">
+      <UniqueIdentifier>{fedb773f-1e24-43ce-ba68-aa6ea679945a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\make">
+      <UniqueIdentifier>{04bc77bb-dee2-48c2-b2a7-0a0f267cb64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib">
+      <UniqueIdentifier>{0accb808-8fd6-4041-8b8e-fa5d2d29e9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib">
+      <UniqueIdentifier>{5d17bf09-8dd4-4bf3-9f77-20e95824ef4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\astrolib">
+      <UniqueIdentifier>{88171903-e4b4-4ae4-8c05-fa93005217dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\base32">
+      <UniqueIdentifier>{a7507d5d-e5cd-40bc-b209-bd3e01287f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\chirpy_tx">
+      <UniqueIdentifier>{51d69e47-149d-4ff2-8275-935aae2ef2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\morsecalc">
+      <UniqueIdentifier>{10d0ff62-420a-4453-b6d3-483625da9526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\smallchesslib">
+      <UniqueIdentifier>{91813029-aa28-49d5-ada6-ae3786f32b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\sunriset">
+      <UniqueIdentifier>{8a79169b-3f37-4c59-80ce-9679be7f851b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\TOTP">
+      <UniqueIdentifier>{87c46fc6-2daf-4b66-ab00-2ca2bfdf613a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\vsop87">
+      <UniqueIdentifier>{b7ee0f25-22f9-4e5d-a9f9-a5766cd2cb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\astrolib">
+      <UniqueIdentifier>{06d26e6e-8338-4a36-a9b1-437cc75eccb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\base32">
+      <UniqueIdentifier>{8f77b75e-5cb8-4fea-bdfc-0b9e95941d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\movement\lib\chirpy_tx\test">
+      <UniqueIdentifier>{3e102add-116f-4ed5-a962-077d673f6c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\chirpy_tx">
+      <UniqueIdentifier>{99839891-a43a-49a7-851c-dd3b0b8ff080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\chirpy_tx\test">
+      <UniqueIdentifier>{20a7ae5c-9bcc-4bdd-b3b4-47b79b078009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\morsecalc">
+      <UniqueIdentifier>{b16d2301-2c24-4fb4-8809-e5604d2b4b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\sunriset">
+      <UniqueIdentifier>{3c297e9f-9fec-4764-a969-d426a0fd21f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\TOTP">
+      <UniqueIdentifier>{66c1b25f-5c2d-427a-b3f1-28932d46fbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement\lib\vsop87">
+      <UniqueIdentifier>{20a4616d-17e9-47a0-bd9d-83d06c73c4cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="movement\filesystem.c">
+      <Filter>Source Files\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\movement.c">
+      <Filter>Source Files\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\shell.c">
+      <Filter>Source Files\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\shell_cmd_list.c">
+      <Filter>Source Files\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\template\template.c">
+      <Filter>Source Files\movement\template</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\beats_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\clock_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\close_enough_clock_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\day_night_percentage_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\decimal_time_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\french_revolutionary_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\mars_time_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\minimal_clock_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\minute_repeater_decimal_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\repetition_minute_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\simple_clock_bin_led_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\simple_clock_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\weeknumber_clock_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\world_clock_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\world_clock2_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\clock\wyoscan_face.c">
+      <Filter>Source Files\movement\watch_faces\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\beeps_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\character_set_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\chirpy_demo_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\demo_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\frequency_correction_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\hello_there_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\lis2dw_logging_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\demo\voltage_face.c">
+      <Filter>Source Files\movement\watch_faces\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\accel_interrupt_count_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\accelerometer_data_acquisition_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\alarm_thermometer_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\lightmeter_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\minmax_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\thermistor_logging_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\thermistor_readout_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\sensor\thermistor_testing_face.c">
+      <Filter>Source Files\movement\watch_faces\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\settings\finetune_face.c">
+      <Filter>Source Files\movement\watch_faces\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\settings\nanosec_face.c">
+      <Filter>Source Files\movement\watch_faces\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\settings\preferences_face.c">
+      <Filter>Source Files\movement\watch_faces\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\settings\save_load_face.c">
+      <Filter>Source Files\movement\watch_faces\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\settings\set_time_face.c">
+      <Filter>Source Files\movement\watch_faces\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\settings\set_time_hackwatch_face.c">
+      <Filter>Source Files\movement\watch_faces\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\activity_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\alarm_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\astronomy_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\blinky_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\breathing_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\butterfly_game_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\couch_to_5k_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\countdown_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\counter_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\databank_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\day_one_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\deadline_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\discgolf_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\dual_timer_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\endless_runner_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\flashlight_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\geomancy_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\habit_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\higher_lower_game_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\interval_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\invaders_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\kitchen_conversions_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\menstrual_cycle_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\metronome_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\moon_phase_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\morsecalc_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\orrery_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\periodic_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\planetary_hours_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\planetary_time_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\probability_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\pulsometer_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\randonaut_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\ratemeter_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\rpn_calculator_alt_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\rpn_calculator_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\sailing_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\ships_bell_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\simon_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\simple_calculator_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\simple_coin_flip_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\smallchess_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\solstice_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\stock_stopwatch_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\stopwatch_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\sunrise_sunset_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\tachymeter_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\tally_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\tarot_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\tempchart_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\time_left_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\timer_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\tomato_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\toss_up_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\totp_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\totp_face_lfs.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\tuning_tones_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\wake_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\wareki_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\wordle_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\astrolib\astrolib.c">
+      <Filter>Source Files\movement\lib\astrolib</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\base32\base32.c">
+      <Filter>Source Files\movement\lib\base32</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\chirpy_tx\chirpy_tx.c">
+      <Filter>Source Files\movement\lib\chirpy_tx</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\chirpy_tx\test\test_main.c">
+      <Filter>Source Files\movement\lib\chirpy_tx\test</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\chirpy_tx\test\unity.c">
+      <Filter>Source Files\movement\lib\chirpy_tx\test</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\morsecalc\calc.c">
+      <Filter>Source Files\movement\lib\morsecalc</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\morsecalc\calc_fns.c">
+      <Filter>Source Files\movement\lib\morsecalc</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\morsecalc\calc_strtof.c">
+      <Filter>Source Files\movement\lib\morsecalc</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\morsecalc\morsecalc_display.c">
+      <Filter>Source Files\movement\lib\morsecalc</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\morsecalc\test_morsecalc.c">
+      <Filter>Source Files\movement\lib\morsecalc</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\sunriset\sunriset.c">
+      <Filter>Source Files\movement\lib\sunriset</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\TOTP\example.c">
+      <Filter>Source Files\movement\lib\TOTP</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\TOTP\sha1.c">
+      <Filter>Source Files\movement\lib\TOTP</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\TOTP\sha256.c">
+      <Filter>Source Files\movement\lib\TOTP</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\TOTP\sha512.c">
+      <Filter>Source Files\movement\lib\TOTP</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\TOTP\TOTP.c">
+      <Filter>Source Files\movement\lib\TOTP</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\vsop87\vsop87a_micro.c">
+      <Filter>Source Files\movement\lib\vsop87</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\lib\vsop87\vsop87a_milli.c">
+      <Filter>Source Files\movement\lib\vsop87</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="movement\filesystem.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\movement.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\movement_config.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\movement_custom_signal_tunes.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\movement_faces.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\shell.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\shell_cmd_list.h">
+      <Filter>Header Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\template\template.h">
+      <Filter>Header Files\movement\template</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\beats_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\clock_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\close_enough_clock_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\day_night_percentage_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\decimal_time_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\french_revolutionary_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\mars_time_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\minimal_clock_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\minute_repeater_decimal_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\repetition_minute_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\simple_clock_bin_led_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\simple_clock_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\weeknumber_clock_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\world_clock_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\world_clock2_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\clock\wyoscan_face.h">
+      <Filter>Header Files\movement\watch_faces\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\beeps_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\character_set_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\chirpy_demo_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\demo_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\frequency_correction_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\hello_there_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\lis2dw_logging_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\demo\voltage_face.h">
+      <Filter>Header Files\movement\watch_faces\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\accel_interrupt_count_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\accelerometer_data_acquisition_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\alarm_thermometer_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\lightmeter_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\minmax_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\thermistor_logging_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\thermistor_readout_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\sensor\thermistor_testing_face.h">
+      <Filter>Header Files\movement\watch_faces\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\finetune_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\nanosec_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\place_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\preferences_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\save_load_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\set_time_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\settings\set_time_hackwatch_face.h">
+      <Filter>Header Files\movement\watch_faces\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\activity_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\alarm_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\astronomy_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\blinky_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\breathing_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\butterfly_game_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\couch_to_5k_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\countdown_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\counter_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\databank_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\day_one_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\deadline_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\discgolf_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\dual_timer_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\endless_runner_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\flashlight_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\geomancy_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\habit_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\higher_lower_game_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\interval_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\invaders_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\kitchen_conversions_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\menstrual_cycle_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\metronome_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\moon_phase_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\morsecalc_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\orrery_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\periodic_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\planetary_hours_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\planetary_time_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\probability_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\pulsometer_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\randonaut_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\ratemeter_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\rpn_calculator_alt_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\rpn_calculator_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\sailing_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\ships_bell_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\simon_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\simple_calculator_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\simple_coin_flip_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\smallchess_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\solstice_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\stock_stopwatch_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\stopwatch_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\sunrise_sunset_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\tachymeter_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\tally_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\tarot_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\tempchart_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\time_left_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\timer_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\tomato_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\toss_up_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\totp_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\totp_face_lfs.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\tuning_tones_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\wake_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\wareki_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\wordle_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\wordle_face_dict.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\alt_time.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\backer.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\deep_space_now.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\focus.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\the_athlete.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\the_backpacker.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\the_stargazer.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\alt_fw\timers.h">
+      <Filter>Header Files\movement\alt_fw</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\astrolib\astrolib.h">
+      <Filter>Header Files\movement\lib\astrolib</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\base32\base32.h">
+      <Filter>Header Files\movement\lib\base32</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\chirpy_tx\chirpy_tx.h">
+      <Filter>Header Files\movement\lib\chirpy_tx</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\chirpy_tx\test\unity.h">
+      <Filter>Header Files\movement\lib\chirpy_tx\test</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\chirpy_tx\test\unity_internals.h">
+      <Filter>Header Files\movement\lib\chirpy_tx\test</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\morsecalc\calc.h">
+      <Filter>Header Files\movement\lib\morsecalc</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\morsecalc\calc_fns.h">
+      <Filter>Header Files\movement\lib\morsecalc</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\morsecalc\morsecalc_display.h">
+      <Filter>Header Files\movement\lib\morsecalc</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\smallchesslib\smallchesslib.h">
+      <Filter>Header Files\movement\lib\smallchesslib</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\sunriset\sunriset.h">
+      <Filter>Header Files\movement\lib\sunriset</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\TOTP\sha1.h">
+      <Filter>Header Files\movement\lib\TOTP</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\TOTP\sha256.h">
+      <Filter>Header Files\movement\lib\TOTP</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\TOTP\sha512.h">
+      <Filter>Header Files\movement\lib\TOTP</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\TOTP\TOTP.h">
+      <Filter>Header Files\movement\lib\TOTP</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\vsop87\vsop87a_micro.h">
+      <Filter>Header Files\movement\lib\vsop87</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\lib\vsop87\vsop87a_milli.h">
+      <Filter>Header Files\movement\lib\vsop87</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movement\template\watch_face.py">
+      <Filter>Source Files\movement\template</Filter>
+    </None>
+    <None Include="movement\make\make_alternate_fw.sh">
+      <Filter>Source Files\movement\make</Filter>
+    </None>
+    <None Include="movement\make\Makefile">
+      <Filter>Source Files\movement\make</Filter>
+    </None>
+    <None Include="movement\README.md">
+      <Filter>Header Files\movement</Filter>
+    </None>
+    <None Include="movement\lib\astrolib\README.md">
+      <Filter>Header Files\movement\lib\astrolib</Filter>
+    </None>
+    <None Include="movement\lib\TOTP\README.md">
+      <Filter>Header Files\movement\lib\TOTP</Filter>
+    </None>
+    <None Include="movement\lib\vsop87\README.md">
+      <Filter>Header Files\movement\lib\vsop87</Filter>
+    </None>
+  </ItemGroup>
+</Project>

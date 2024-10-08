@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ba8e9b22-dedb-4c5f-aaa1-4e6ece5fc985}</ProjectGuid>
+    <RootNamespace>SensorWatch</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="movement\filesystem.c" />
+    <ClCompile Include="movement\lib\astrolib\astrolib.c" />
+    <ClCompile Include="movement\lib\base32\base32.c" />
+    <ClCompile Include="movement\lib\chirpy_tx\chirpy_tx.c" />
+    <ClCompile Include="movement\lib\chirpy_tx\test\test_main.c" />
+    <ClCompile Include="movement\lib\chirpy_tx\test\unity.c" />
+    <ClCompile Include="movement\lib\morsecalc\calc.c" />
+    <ClCompile Include="movement\lib\morsecalc\calc_fns.c" />
+    <ClCompile Include="movement\lib\morsecalc\calc_strtof.c" />
+    <ClCompile Include="movement\lib\morsecalc\morsecalc_display.c" />
+    <ClCompile Include="movement\lib\morsecalc\test_morsecalc.c" />
+    <ClCompile Include="movement\lib\sunriset\sunriset.c" />
+    <ClCompile Include="movement\lib\TOTP\example.c" />
+    <ClCompile Include="movement\lib\TOTP\sha1.c" />
+    <ClCompile Include="movement\lib\TOTP\sha256.c" />
+    <ClCompile Include="movement\lib\TOTP\sha512.c" />
+    <ClCompile Include="movement\lib\TOTP\TOTP.c" />
+    <ClCompile Include="movement\lib\vsop87\vsop87a_micro.c" />
+    <ClCompile Include="movement\lib\vsop87\vsop87a_milli.c" />
+    <ClCompile Include="movement\movement.c" />
+    <ClCompile Include="movement\shell.c" />
+    <ClCompile Include="movement\shell_cmd_list.c" />
+    <ClCompile Include="movement\template\template.c" />
+    <ClCompile Include="movement\watch_faces\clock\beats_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\clock_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\close_enough_clock_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\day_night_percentage_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\decimal_time_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\french_revolutionary_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\mars_time_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\minimal_clock_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\minute_repeater_decimal_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\repetition_minute_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\simple_clock_bin_led_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\simple_clock_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\weeknumber_clock_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\world_clock2_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\world_clock_face.c" />
+    <ClCompile Include="movement\watch_faces\clock\wyoscan_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\activity_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\alarm_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\astronomy_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\blinky_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\breathing_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\butterfly_game_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\couch_to_5k_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\countdown_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\counter_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\databank_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\day_one_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\deadline_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\discgolf_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\dual_timer_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\endless_runner_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\flashlight_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\geomancy_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\habit_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\higher_lower_game_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\interval_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\invaders_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\kitchen_conversions_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\menstrual_cycle_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\metronome_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\moon_phase_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\morsecalc_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\orrery_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\periodic_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\planetary_hours_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\planetary_time_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\probability_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\pulsometer_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\randonaut_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\ratemeter_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\rpn_calculator_alt_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\rpn_calculator_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\sailing_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\ships_bell_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\simon_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\simple_calculator_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\simple_coin_flip_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\smallchess_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\solstice_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\stock_stopwatch_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\stopwatch_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\sunrise_sunset_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\tachymeter_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\tally_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\tarot_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\tempchart_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\timer_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\time_left_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\tomato_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\toss_up_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\totp_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\totp_face_lfs.c" />
+    <ClCompile Include="movement\watch_faces\complication\tuning_tones_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\wake_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\wareki_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\wordle_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\beeps_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\character_set_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\chirpy_demo_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\demo_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\frequency_correction_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\hello_there_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\lis2dw_logging_face.c" />
+    <ClCompile Include="movement\watch_faces\demo\voltage_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\accelerometer_data_acquisition_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\accel_interrupt_count_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\alarm_thermometer_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\lightmeter_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\minmax_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\thermistor_logging_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\thermistor_readout_face.c" />
+    <ClCompile Include="movement\watch_faces\sensor\thermistor_testing_face.c" />
+    <ClCompile Include="movement\watch_faces\settings\finetune_face.c" />
+    <ClCompile Include="movement\watch_faces\settings\nanosec_face.c" />
+    <ClCompile Include="movement\watch_faces\settings\preferences_face.c" />
+    <ClCompile Include="movement\watch_faces\settings\save_load_face.c" />
+    <ClCompile Include="movement\watch_faces\settings\set_time_face.c" />
+    <ClCompile Include="movement\watch_faces\settings\set_time_hackwatch_face.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="movement\alt_fw\alt_time.h" />
+    <ClInclude Include="movement\alt_fw\backer.h" />
+    <ClInclude Include="movement\alt_fw\deep_space_now.h" />
+    <ClInclude Include="movement\alt_fw\focus.h" />
+    <ClInclude Include="movement\alt_fw\the_athlete.h" />
+    <ClInclude Include="movement\alt_fw\the_backpacker.h" />
+    <ClInclude Include="movement\alt_fw\the_stargazer.h" />
+    <ClInclude Include="movement\alt_fw\timers.h" />
+    <ClInclude Include="movement\filesystem.h" />
+    <ClInclude Include="movement\lib\astrolib\astrolib.h" />
+    <ClInclude Include="movement\lib\base32\base32.h" />
+    <ClInclude Include="movement\lib\chirpy_tx\chirpy_tx.h" />
+    <ClInclude Include="movement\lib\chirpy_tx\test\unity.h" />
+    <ClInclude Include="movement\lib\chirpy_tx\test\unity_internals.h" />
+    <ClInclude Include="movement\lib\morsecalc\calc.h" />
+    <ClInclude Include="movement\lib\morsecalc\calc_fns.h" />
+    <ClInclude Include="movement\lib\morsecalc\morsecalc_display.h" />
+    <ClInclude Include="movement\lib\smallchesslib\smallchesslib.h" />
+    <ClInclude Include="movement\lib\sunriset\sunriset.h" />
+    <ClInclude Include="movement\lib\TOTP\sha1.h" />
+    <ClInclude Include="movement\lib\TOTP\sha256.h" />
+    <ClInclude Include="movement\lib\TOTP\sha512.h" />
+    <ClInclude Include="movement\lib\TOTP\TOTP.h" />
+    <ClInclude Include="movement\lib\vsop87\vsop87a_micro.h" />
+    <ClInclude Include="movement\lib\vsop87\vsop87a_milli.h" />
+    <ClInclude Include="movement\movement.h" />
+    <ClInclude Include="movement\movement_config.h" />
+    <ClInclude Include="movement\movement_custom_signal_tunes.h" />
+    <ClInclude Include="movement\movement_faces.h" />
+    <ClInclude Include="movement\shell.h" />
+    <ClInclude Include="movement\shell_cmd_list.h" />
+    <ClInclude Include="movement\template\template.h" />
+    <ClInclude Include="movement\watch_faces\clock\beats_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\clock_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\close_enough_clock_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\day_night_percentage_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\decimal_time_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\french_revolutionary_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\mars_time_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\minimal_clock_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\minute_repeater_decimal_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\repetition_minute_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\simple_clock_bin_led_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\simple_clock_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\weeknumber_clock_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\world_clock2_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\world_clock_face.h" />
+    <ClInclude Include="movement\watch_faces\clock\wyoscan_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\activity_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\alarm_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\astronomy_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\blinky_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\breathing_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\butterfly_game_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\couch_to_5k_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\countdown_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\counter_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\databank_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\day_one_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\deadline_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\discgolf_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\dual_timer_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\endless_runner_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\flashlight_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\geomancy_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\habit_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\higher_lower_game_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\interval_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\invaders_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\kitchen_conversions_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\menstrual_cycle_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\metronome_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\moon_phase_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\morsecalc_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\orrery_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\periodic_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\planetary_hours_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\planetary_time_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\probability_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\pulsometer_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\randonaut_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\ratemeter_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\rpn_calculator_alt_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\rpn_calculator_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\sailing_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\ships_bell_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\simon_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\simple_calculator_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\simple_coin_flip_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\smallchess_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\solstice_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\stock_stopwatch_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\stopwatch_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\sunrise_sunset_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\tachymeter_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\tally_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\tarot_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\tempchart_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\timer_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\time_left_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\tomato_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\toss_up_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\totp_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\totp_face_lfs.h" />
+    <ClInclude Include="movement\watch_faces\complication\tuning_tones_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\wake_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\wareki_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\wordle_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\wordle_face_dict.h" />
+    <ClInclude Include="movement\watch_faces\demo\beeps_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\character_set_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\chirpy_demo_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\demo_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\frequency_correction_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\hello_there_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\lis2dw_logging_face.h" />
+    <ClInclude Include="movement\watch_faces\demo\voltage_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\accelerometer_data_acquisition_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\accel_interrupt_count_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\alarm_thermometer_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\lightmeter_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\minmax_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\thermistor_logging_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\thermistor_readout_face.h" />
+    <ClInclude Include="movement\watch_faces\sensor\thermistor_testing_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\finetune_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\nanosec_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\place_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\preferences_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\save_load_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\set_time_face.h" />
+    <ClInclude Include="movement\watch_faces\settings\set_time_hackwatch_face.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movement\lib\astrolib\README.md" />
+    <None Include="movement\lib\TOTP\README.md" />
+    <None Include="movement\lib\vsop87\README.md" />
+    <None Include="movement\make\Makefile" />
+    <None Include="movement\make\make_alternate_fw.sh" />
+    <None Include="movement\README.md" />
+    <None Include="movement\template\watch_face.py" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
