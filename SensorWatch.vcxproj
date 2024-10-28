@@ -127,6 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="apps\accelerometer-test\app.c" />
+    <ClCompile Include="apps\beats-time\app.c" />
+    <ClCompile Include="apps\buzzer-test\app.c" />
+    <ClCompile Include="apps\eeprom-emulation-upgrade\app.c" />
+    <ClCompile Include="apps\flash-test\app.c" />
+    <ClCompile Include="apps\functional-test\app.c" />
+    <ClCompile Include="apps\pro-rainbow-test\app.c" />
+    <ClCompile Include="apps\sensor-board-test\app.c" />
+    <ClCompile Include="apps\sensor-watch-lite-test\app.c" />
+    <ClCompile Include="apps\spi-test\app.c" />
+    <ClCompile Include="apps\starter-project\app.c" />
+    <ClCompile Include="apps\uart-display\app.c" />
     <ClCompile Include="movement\filesystem.c" />
     <ClCompile Include="movement\lib\astrolib\astrolib.c" />
     <ClCompile Include="movement\lib\base32\base32.c" />
@@ -384,6 +396,18 @@
     <ClInclude Include="movement\watch_faces\settings\set_time_hackwatch_face.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="apps\accelerometer-test\Makefile" />
+    <None Include="apps\beats-time\make\Makefile" />
+    <None Include="apps\buzzer-test\make\Makefile" />
+    <None Include="apps\eeprom-emulation-upgrade\Makefile" />
+    <None Include="apps\flash-test\Makefile" />
+    <None Include="apps\functional-test\make\Makefile" />
+    <None Include="apps\pro-rainbow-test\make\Makefile" />
+    <None Include="apps\sensor-board-test\make\Makefile" />
+    <None Include="apps\sensor-watch-lite-test\make\Makefile" />
+    <None Include="apps\spi-test\Makefile" />
+    <None Include="apps\starter-project\Makefile" />
+    <None Include="apps\uart-display\Makefile" />
     <None Include="movement\lib\astrolib\README.md" />
     <None Include="movement\lib\TOTP\README.md" />
     <None Include="movement\lib\vsop87\README.md" />
@@ -391,6 +415,11 @@
     <None Include="movement\make\make_alternate_fw.sh" />
     <None Include="movement\README.md" />
     <None Include="movement\template\watch_face.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\sensor-board-pinout.png" />
+    <Image Include="images\sensor-board.png" />
+    <Image Include="images\sensor-watch.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
