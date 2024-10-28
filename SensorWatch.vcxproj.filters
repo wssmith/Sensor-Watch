@@ -232,6 +232,30 @@
     <Filter Include="Header Files\watch-library\hardware\hal\utils\include">
       <UniqueIdentifier>{a402ad56-a814-48f3-947a-d64eea6c2a65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\boards">
+      <UniqueIdentifier>{dd1369fa-0d93-4d8d-8d14-70f73ccf6c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boards\OSO-FEAL-A1-00">
+      <UniqueIdentifier>{fd3b89d2-c685-4297-b717-48e8feac0136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boards\OSO-SWAT-A1-02">
+      <UniqueIdentifier>{b5f9048d-72c7-484c-942d-1b7146945f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boards\OSO-SWAT-A1-04">
+      <UniqueIdentifier>{4fb847fe-7b76-4a38-a2fd-fbe5552fbedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boards\OSO-SWAT-A1-05">
+      <UniqueIdentifier>{731d2a37-ab34-46bc-8afa-88681d85b779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boards\OSO-SWAT-C1-00">
+      <UniqueIdentifier>{40e49d96-da05-49cc-a3d7-4a81b98aa4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\littlefs">
+      <UniqueIdentifier>{f35cda74-b388-46f7-bce9-f4270d25d73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\littlefs">
+      <UniqueIdentifier>{2bb45492-3834-4020-95f9-c1c94d5b1c81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="movement\filesystem.c">
@@ -1402,6 +1426,21 @@
     </ClInclude>
     <ClInclude Include="watch-library\hardware\hal\utils\include\utils_repeat_macro.h">
       <Filter>Header Files\watch-library\hardware\hal\utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="boards\OSO-FEAL-A1-00\pins.h">
+      <Filter>Header Files\boards\OSO-FEAL-A1-00</Filter>
+    </ClInclude>
+    <ClInclude Include="boards\OSO-SWAT-A1-02\pins.h">
+      <Filter>Header Files\boards\OSO-SWAT-A1-02</Filter>
+    </ClInclude>
+    <ClInclude Include="boards\OSO-SWAT-A1-04\pins.h">
+      <Filter>Header Files\boards\OSO-SWAT-A1-04</Filter>
+    </ClInclude>
+    <ClInclude Include="boards\OSO-SWAT-A1-05\pins.h">
+      <Filter>Header Files\boards\OSO-SWAT-A1-05</Filter>
+    </ClInclude>
+    <ClInclude Include="boards\OSO-SWAT-C1-00\pins.h">
+      <Filter>Header Files\boards\OSO-SWAT-C1-00</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
