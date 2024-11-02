@@ -106,7 +106,7 @@ void accelerometer_data_acquisition_face_activate(movement_settings_t *settings,
 bool accelerometer_data_acquisition_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void accelerometer_data_acquisition_face_resign(movement_settings_t *settings, void *context);
 
-#define accelerometer_data_acquisition_face ((const watch_face_t){ \
+#define accelerometer_data_acquisition_face ((const watch_face_t) watch_face_t{ \
     accelerometer_data_acquisition_face_setup, \
     accelerometer_data_acquisition_face_activate, \
     accelerometer_data_acquisition_face_loop, \

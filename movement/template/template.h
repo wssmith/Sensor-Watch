@@ -44,7 +44,7 @@ void <#watch_face_name#>_face_activate(movement_settings_t *settings, void *cont
 bool <#watch_face_name#>_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void <#watch_face_name#>_face_resign(movement_settings_t *settings, void *context);
 
-#define <#watch_face_name#>_face ((const watch_face_t){ \
+#define <#watch_face_name#>_face ((const watch_face_t) watch_face_t{ \
     <#watch_face_name#>_face_setup, \
     <#watch_face_name#>_face_activate, \
     <#watch_face_name#>_face_loop, \

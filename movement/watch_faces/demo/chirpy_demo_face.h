@@ -57,7 +57,7 @@ void chirpy_demo_face_activate(movement_settings_t *settings, void *context);
 bool chirpy_demo_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void chirpy_demo_face_resign(movement_settings_t *settings, void *context);
 
-#define chirpy_demo_face ((const watch_face_t){ \
+#define chirpy_demo_face ((const watch_face_t) watch_face_t{ \
     chirpy_demo_face_setup, \
     chirpy_demo_face_activate, \
     chirpy_demo_face_loop, \

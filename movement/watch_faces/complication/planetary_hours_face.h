@@ -97,7 +97,7 @@ void planetary_hours_face_activate(movement_settings_t *settings, void *context)
 bool planetary_hours_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void planetary_hours_face_resign(movement_settings_t *settings, void *context);
 
-#define planetary_hours_face ((const watch_face_t){ \
+#define planetary_hours_face ((const watch_face_t) watch_face_t{ \
     planetary_hours_face_setup, \
     planetary_hours_face_activate, \
     planetary_hours_face_loop, \

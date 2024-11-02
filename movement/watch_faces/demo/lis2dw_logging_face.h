@@ -63,7 +63,7 @@ bool lis2dw_logging_face_loop(movement_event_t event, movement_settings_t *setti
 void lis2dw_logging_face_resign(movement_settings_t *settings, void *context);
 bool lis2dw_logging_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define lis2dw_logging_face ((const watch_face_t){ \
+#define lis2dw_logging_face ((const watch_face_t) watch_face_t{ \
     lis2dw_logging_face_setup, \
     lis2dw_logging_face_activate, \
     lis2dw_logging_face_loop, \

@@ -83,7 +83,7 @@ void discgolf_face_activate(movement_settings_t *settings, void *context);
 bool discgolf_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void discgolf_face_resign(movement_settings_t *settings, void *context);
 
-#define discgolf_face ((const watch_face_t){ \
+#define discgolf_face ((const watch_face_t) watch_face_t{ \
     discgolf_face_setup, \
     discgolf_face_activate, \
     discgolf_face_loop, \

@@ -95,7 +95,7 @@ void higher_lower_game_face_activate(movement_settings_t *settings, void *contex
 bool higher_lower_game_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void higher_lower_game_face_resign(movement_settings_t *settings, void *context);
 
-#define higher_lower_game_face ((const watch_face_t){ \
+#define higher_lower_game_face ((const watch_face_t) watch_face_t{ \
     higher_lower_game_face_setup, \
     higher_lower_game_face_activate, \
     higher_lower_game_face_loop, \

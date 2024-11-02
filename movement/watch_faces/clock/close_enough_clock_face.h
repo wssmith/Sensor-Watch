@@ -51,7 +51,7 @@ void close_enough_clock_face_activate(movement_settings_t *settings, void *conte
 bool close_enough_clock_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void close_enough_clock_face_resign(movement_settings_t *settings, void *context);
 
-#define close_enough_clock_face ((const watch_face_t){ \
+#define close_enough_clock_face ((const watch_face_t) watch_face_t{ \
     close_enough_clock_face_setup, \
     close_enough_clock_face_activate, \
     close_enough_clock_face_loop, \

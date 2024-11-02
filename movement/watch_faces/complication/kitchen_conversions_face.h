@@ -76,7 +76,7 @@ void kitchen_conversions_face_activate(movement_settings_t *settings, void *cont
 bool kitchen_conversions_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void kitchen_conversions_face_resign(movement_settings_t *settings, void *context);
 
-#define kitchen_conversions_face ((const watch_face_t){ \
+#define kitchen_conversions_face ((const watch_face_t) watch_face_t{ \
     kitchen_conversions_face_setup,                     \
     kitchen_conversions_face_activate,                  \
     kitchen_conversions_face_loop,                      \

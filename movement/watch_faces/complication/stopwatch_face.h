@@ -50,7 +50,7 @@ void stopwatch_face_activate(movement_settings_t *settings, void *context);
 bool stopwatch_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void stopwatch_face_resign(movement_settings_t *settings, void *context);
 
-#define stopwatch_face ((const watch_face_t){ \
+#define stopwatch_face ((const watch_face_t) watch_face_t{ \
     stopwatch_face_setup, \
     stopwatch_face_activate, \
     stopwatch_face_loop, \

@@ -47,7 +47,7 @@ void tempchart_face_resign(movement_settings_t *settings, void *context);
 bool tempchart_face_wants_background_task(movement_settings_t *settings, void *context);
 
 
-#define tempchart_face ((const watch_face_t){ \
+#define tempchart_face ((const watch_face_t) watch_face_t{ \
     tempchart_face_setup, \
     tempchart_face_activate, \
     tempchart_face_loop, \

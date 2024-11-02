@@ -49,7 +49,7 @@ void beeps_face_activate(movement_settings_t *settings, void *context);
 bool beeps_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void beeps_face_resign(movement_settings_t *settings, void *context);
 
-#define beeps_face ((const watch_face_t){ \
+#define beeps_face ((const watch_face_t) watch_face_t{ \
     beeps_face_setup, \
     beeps_face_activate, \
     beeps_face_loop, \

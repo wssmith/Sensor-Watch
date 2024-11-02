@@ -256,6 +256,60 @@
     <Filter Include="Source Files\littlefs">
       <UniqueIdentifier>{2bb45492-3834-4020-95f9-c1c94d5b1c81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\watch-library\hardware\hri">
+      <UniqueIdentifier>{8e4c2113-7c39-451b-a7f5-4ac712c1f7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\hardware\include">
+      <UniqueIdentifier>{962660bc-f3e1-444f-b9c7-ffeaa26af839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\hardware\include\component">
+      <UniqueIdentifier>{1b1bca8e-0972-44b5-bb7c-6e0b4d7c9fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\hardware\include\instance">
+      <UniqueIdentifier>{8552ab0e-127e-4e91-95b5-6054ea03ad84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\hardware\include\pio">
+      <UniqueIdentifier>{531b7e3e-efb6-4e18-a66b-65bf472b019d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\hardware\hpl">
+      <UniqueIdentifier>{ff4115d6-9662-44b5-9a51-af4034e85b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\hardware\watch">
+      <UniqueIdentifier>{c0844ac6-b9df-4437-abc1-efba846af9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hardware">
+      <UniqueIdentifier>{09e8b25f-ffde-4db0-85b6-7f8821362a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hardware\watch">
+      <UniqueIdentifier>{d21d8489-6538-4db7-a451-b6f8de1793bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\watch-library\simulator">
+      <UniqueIdentifier>{8ed06f6f-9975-45a6-95f0-9b234b8cb358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\simulator\hpl">
+      <UniqueIdentifier>{d04a54ea-4132-4578-9b4a-3c7fe83a11c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\simulator\hpl\port">
+      <UniqueIdentifier>{f41a1e8f-a818-48bd-b616-915edd487c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\watch-library\simulator\watch">
+      <UniqueIdentifier>{6b753105-bb24-4caa-b73d-cddb4ce38641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\watch-library\simulator\watch">
+      <UniqueIdentifier>{2302c108-9391-442b-81dc-952aa537853f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb">
+      <UniqueIdentifier>{e66375cc-cb48-49de-96af-04c4d32cd12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\littlefs\bd">
+      <UniqueIdentifier>{9e18e55b-55d4-4182-986a-1eedd9a535ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\littlefs\bd">
+      <UniqueIdentifier>{954c5389-ef98-488c-8c53-4cd16cd24ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb">
+      <UniqueIdentifier>{96f45f1a-173e-42db-96c4-d2c237dc1349}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="movement\filesystem.c">
@@ -731,6 +785,117 @@
     </ClCompile>
     <ClCompile Include="watch-library\hardware\hal\utils\src\utils_syscalls.c">
       <Filter>Source Files\watch-library\hardware\hal\utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_adc.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_buzzer.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_deepsleep.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_extint.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_gpio.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_i2c.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_led.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_private.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_private_cdc.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_rtc.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_slcd.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_spi.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_storage.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\watch\watch_uart.c">
+      <Filter>Source Files\hardware\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\main.c">
+      <Filter>Source Files\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\hardware\startup_saml22.c">
+      <Filter>Source Files\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\main.c">
+      <Filter>Source Files\watch-library\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_led.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_adc.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_buzzer.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_deepsleep.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_extint.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_gpio.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_i2c.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_uart.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_private.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_rtc.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_slcd.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_spi.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="watch-library\simulator\watch\watch_storage.c">
+      <Filter>Source Files\watch-library\simulator\watch</Filter>
+    </ClCompile>
+    <ClCompile Include="littlefs\lfs_util.c">
+      <Filter>Source Files\littlefs</Filter>
+    </ClCompile>
+    <ClCompile Include="littlefs\lfs.c">
+      <Filter>Source Files\littlefs</Filter>
+    </ClCompile>
+    <ClCompile Include="littlefs\bd\lfs_filebd.c">
+      <Filter>Source Files\littlefs\bd</Filter>
+    </ClCompile>
+    <ClCompile Include="littlefs\bd\lfs_rambd.c">
+      <Filter>Source Files\littlefs\bd</Filter>
+    </ClCompile>
+    <ClCompile Include="littlefs\bd\lfs_testbd.c">
+      <Filter>Source Files\littlefs\bd</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1442,6 +1607,399 @@
     <ClInclude Include="boards\OSO-SWAT-C1-00\pins.h">
       <Filter>Header Files\boards\OSO-SWAT-C1-00</Filter>
     </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component-version.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\core_cm0plus.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\core_cmFunc.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\core_cmInstr.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\sam.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22g16a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22g17a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22g18a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22j16a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22j17a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22j18a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22n16a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22n17a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\saml22n18a.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\system_saml22.h">
+      <Filter>Header Files\watch-library\hardware\include</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22g16a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22g17a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22g18a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22j16a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22j17a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22j18a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22n16a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22n17a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\pio\saml22n18a.h">
+      <Filter>Header Files\watch-library\hardware\include\pio</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\ac.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\adc.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\aes.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\ccl.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\dmac.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\dsu.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\eic.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\evsys.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\freqm.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\gclk.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\mclk.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\mtb.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\nvmctrl.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\osc32kctrl.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\oscctrl.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\pac.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\pm.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\port.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\ptc.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\rstc.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\rtc.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\sercom0.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\sercom1.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\sercom2.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\sercom3.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\sercom4.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\sercom5.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\slcd.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\supc.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\tc0.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\tc1.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\tc2.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\tc3.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\tcc0.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\trng.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\usb.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\instance\wdt.h">
+      <Filter>Header Files\watch-library\hardware\include\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\ac.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\adc.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\aes.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\ccl.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\dmac.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\dsu.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\eic.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\evsys.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\freqm.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\gclk.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\mclk.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\mtb.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\nvmctrl.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\osc32kctrl.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\oscctrl.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\pac.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\pm.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\port.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\rstc.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\rtc.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\sercom.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\slcd.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\supc.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\tc.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\tcc.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\trng.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\usb.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\include\component\wdt.h">
+      <Filter>Header Files\watch-library\hardware\include\component</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_ac_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_adc_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_aes_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_ccl_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_dmac_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_dsu_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_eic_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_evsys_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_freqm_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_gclk_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_mclk_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_mtb_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_nvic_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_nvmctrl_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_osc32kctrl_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_oscctrl_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_pac_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_pm_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_port_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_rstc_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_rtc_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_sercom_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_slcd_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_supc_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_systemcontrol_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_systick_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_tc_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_tcc_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_trng_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_usb_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\hri\hri_wdt_l22.h">
+      <Filter>Header Files\watch-library\hardware\hri</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\watch\tusb_config.h">
+      <Filter>Header Files\watch-library\hardware\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\hardware\watch\watch_private_cdc.h">
+      <Filter>Header Files\watch-library\hardware\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\simulator\hpl\port\hpl_gpio_base.h">
+      <Filter>Header Files\watch-library\simulator\hpl\port</Filter>
+    </ClInclude>
+    <ClInclude Include="watch-library\simulator\watch\watch_main_loop.h">
+      <Filter>Header Files\watch-library\simulator\watch</Filter>
+    </ClInclude>
+    <ClInclude Include="littlefs\lfs.h">
+      <Filter>Header Files\littlefs</Filter>
+    </ClInclude>
+    <ClInclude Include="littlefs\lfs_util.h">
+      <Filter>Header Files\littlefs</Filter>
+    </ClInclude>
+    <ClInclude Include="littlefs\bd\lfs_filebd.h">
+      <Filter>Header Files\littlefs\bd</Filter>
+    </ClInclude>
+    <ClInclude Include="littlefs\bd\lfs_rambd.h">
+      <Filter>Header Files\littlefs\bd</Filter>
+    </ClInclude>
+    <ClInclude Include="littlefs\bd\lfs_testbd.h">
+      <Filter>Header Files\littlefs\bd</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="movement\template\watch_face.py">
@@ -1500,6 +2058,24 @@
     </None>
     <None Include="apps\uart-display\Makefile">
       <Filter>Source Files\apps\uart-display</Filter>
+    </None>
+    <None Include="watch-library\simulator\shell.html">
+      <Filter>Source Files\watch-library\simulator</Filter>
+    </None>
+    <None Include="littlefs\DESIGN.md">
+      <Filter>Source Files\littlefs</Filter>
+    </None>
+    <None Include="littlefs\LICENSE.md">
+      <Filter>Source Files\littlefs</Filter>
+    </None>
+    <None Include="littlefs\Makefile">
+      <Filter>Source Files\littlefs</Filter>
+    </None>
+    <None Include="littlefs\README.md">
+      <Filter>Source Files\littlefs</Filter>
+    </None>
+    <None Include="littlefs\SPEC.md">
+      <Filter>Source Files\littlefs</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

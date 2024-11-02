@@ -70,7 +70,7 @@ void save_load_face_activate(movement_settings_t *settings, void *context);
 bool save_load_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void save_load_face_resign(movement_settings_t *settings, void *context);
 
-#define save_load_face ((const watch_face_t){ \
+#define save_load_face ((const watch_face_t) watch_face_t{ \
     save_load_face_setup, \
     save_load_face_activate, \
     save_load_face_loop, \

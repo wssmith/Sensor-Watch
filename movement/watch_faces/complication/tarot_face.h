@@ -78,7 +78,7 @@ void tarot_face_activate(movement_settings_t *settings, void *context);
 bool tarot_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void tarot_face_resign(movement_settings_t *settings, void *context);
 
-#define tarot_face ((const watch_face_t){ \
+#define tarot_face ((const watch_face_t) watch_face_t{ \
     tarot_face_setup, \
     tarot_face_activate, \
     tarot_face_loop, \

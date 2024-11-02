@@ -49,7 +49,7 @@ void databank_face_activate(movement_settings_t *settings, void *context);
 bool databank_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void databank_face_resign(movement_settings_t *settings, void *context);
 
-#define databank_face ((const watch_face_t){ \
+#define databank_face ((const watch_face_t) watch_face_t{ \
     databank_face_setup, \
     databank_face_activate, \
     databank_face_loop, \

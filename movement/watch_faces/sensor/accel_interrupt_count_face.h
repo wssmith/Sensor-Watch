@@ -49,7 +49,7 @@ bool accel_interrupt_count_face_loop(movement_event_t event, movement_settings_t
 void accel_interrupt_count_face_resign(movement_settings_t *settings, void *context);
 bool accel_interrupt_count_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define accel_interrupt_count_face ((const watch_face_t){ \
+#define accel_interrupt_count_face ((const watch_face_t) watch_face_t{ \
     accel_interrupt_count_face_setup, \
     accel_interrupt_count_face_activate, \
     accel_interrupt_count_face_loop, \

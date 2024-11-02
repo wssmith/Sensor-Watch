@@ -87,7 +87,7 @@ void geomancy_face_activate(movement_settings_t *settings, void *context);
 bool geomancy_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void geomancy_face_resign(movement_settings_t *settings, void *context);
 
-#define geomancy_face ((const watch_face_t){ \
+#define geomancy_face ((const watch_face_t) watch_face_t{ \
     geomancy_face_setup, \
     geomancy_face_activate, \
     geomancy_face_loop, \

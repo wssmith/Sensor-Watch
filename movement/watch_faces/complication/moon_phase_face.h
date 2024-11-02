@@ -60,7 +60,7 @@ void moon_phase_face_activate(movement_settings_t *settings, void *context);
 bool moon_phase_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void moon_phase_face_resign(movement_settings_t *settings, void *context);
 
-#define moon_phase_face ((const watch_face_t){ \
+#define moon_phase_face ((const watch_face_t) watch_face_t{ \
     moon_phase_face_setup, \
     moon_phase_face_activate, \
     moon_phase_face_loop, \

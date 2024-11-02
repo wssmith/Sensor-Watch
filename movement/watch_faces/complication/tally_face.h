@@ -65,7 +65,7 @@ void tally_face_resign(movement_settings_t *settings, void *context);
 
 void print_tally(tally_state_t *state, bool sound_on);
 
-#define tally_face ((const watch_face_t){ \
+#define tally_face ((const watch_face_t) watch_face_t{ \
     tally_face_setup, \
     tally_face_activate, \
     tally_face_loop, \

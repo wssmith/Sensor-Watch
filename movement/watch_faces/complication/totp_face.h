@@ -83,7 +83,7 @@ void totp_face_activate(movement_settings_t *settings, void *context);
 bool totp_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void totp_face_resign(movement_settings_t *settings, void *context);
 
-#define totp_face ((const watch_face_t){ \
+#define totp_face ((const watch_face_t) watch_face_t{ \
     totp_face_setup, \
     totp_face_activate, \
     totp_face_loop, \

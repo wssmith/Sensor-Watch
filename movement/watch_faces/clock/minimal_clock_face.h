@@ -45,7 +45,7 @@ void minimal_clock_face_activate(movement_settings_t *settings, void *context);
 bool minimal_clock_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void minimal_clock_face_resign(movement_settings_t *settings, void *context);
 
-#define minimal_clock_face ((const watch_face_t){ \
+#define minimal_clock_face ((const watch_face_t) watch_face_t{ \
     minimal_clock_face_setup, \
     minimal_clock_face_activate, \
     minimal_clock_face_loop, \

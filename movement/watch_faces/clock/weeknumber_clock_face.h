@@ -50,7 +50,7 @@ bool weeknumber_clock_face_loop(movement_event_t event, movement_settings_t *set
 void weeknumber_clock_face_resign(movement_settings_t *settings, void *context);
 bool weeknumber_clock_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define weeknumber_clock_face ((const watch_face_t){ \
+#define weeknumber_clock_face ((const watch_face_t) watch_face_t{ \
     weeknumber_clock_face_setup, \
     weeknumber_clock_face_activate, \
     weeknumber_clock_face_loop, \

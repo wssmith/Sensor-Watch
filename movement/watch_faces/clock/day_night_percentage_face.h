@@ -54,7 +54,7 @@ void day_night_percentage_face_activate(movement_settings_t *settings, void *con
 bool day_night_percentage_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void day_night_percentage_face_resign(movement_settings_t *settings, void *context);
 
-#define day_night_percentage_face ((const watch_face_t){ \
+#define day_night_percentage_face ((const watch_face_t) watch_face_t{ \
     day_night_percentage_face_setup, \
     day_night_percentage_face_activate, \
     day_night_percentage_face_loop, \

@@ -72,7 +72,7 @@ fr_decimal_time get_decimal_time(watch_date_time *date_time);
 void set_display_buffer(char *buf, french_revolutionary_state_t *state, fr_decimal_time *decimal_time, watch_date_time *date_time);
 
 
-#define french_revolutionary_face ((const watch_face_t){ \
+#define french_revolutionary_face ((const watch_face_t) watch_face_t{ \
     french_revolutionary_face_setup, \
     french_revolutionary_face_activate, \
     french_revolutionary_face_loop, \

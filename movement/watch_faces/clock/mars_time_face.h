@@ -72,7 +72,7 @@ void mars_time_face_activate(movement_settings_t *settings, void *context);
 bool mars_time_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void mars_time_face_resign(movement_settings_t *settings, void *context);
 
-#define mars_time_face ((const watch_face_t){ \
+#define mars_time_face ((const watch_face_t) watch_face_t{ \
     mars_time_face_setup, \
     mars_time_face_activate, \
     mars_time_face_loop, \

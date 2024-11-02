@@ -22,7 +22,7 @@ A fifth optional function, `watch_face_wants_background_task`, will be added to 
 To create a new watch face, you should create a new C header and source file in the watch-faces folder (i.e. for a watch face that displays moon phases: `moon_phase_face.h`, `moon_phase_face.c`), and implement these functions with your own unique prefix (i.e. `moon_phase_face_setup`). Then declare your watch face in your header file as follows:
 
 ```c
-#define moon_phase_face ((const watch_face_t){ \
+#define moon_phase_face ((const watch_face_t) watch_face_t{ \
     moon_phase_face_setup, \
     moon_phase_face_activate, \
     moon_phase_face_loop, \
@@ -100,7 +100,7 @@ void pulsometer_face_activate(movement_settings_t *settings, void *context);
 bool pulsometer_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void pulsometer_face_resign(movement_settings_t *settings, void *context);
 
-#define pulsometer_face ((const watch_face_t){ \
+#define pulsometer_face ((const watch_face_t) watch_face_t{ \
     pulsometer_face_setup, \
     pulsometer_face_activate, \
     pulsometer_face_loop, \

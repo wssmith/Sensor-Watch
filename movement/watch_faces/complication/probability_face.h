@@ -51,7 +51,7 @@ void probability_face_activate(movement_settings_t *settings, void *context);
 bool probability_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void probability_face_resign(movement_settings_t *settings, void *context);
 
-#define probability_face ((const watch_face_t){ \
+#define probability_face ((const watch_face_t) watch_face_t{ \
     probability_face_setup, \
     probability_face_activate, \
     probability_face_loop, \

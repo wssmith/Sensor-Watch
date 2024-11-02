@@ -44,7 +44,7 @@ void hello_there_face_activate(movement_settings_t *settings, void *context);
 bool hello_there_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void hello_there_face_resign(movement_settings_t *settings, void *context);
 
-#define hello_there_face ((const watch_face_t){ \
+#define hello_there_face ((const watch_face_t) watch_face_t{ \
     hello_there_face_setup, \
     hello_there_face_activate, \
     hello_there_face_loop, \

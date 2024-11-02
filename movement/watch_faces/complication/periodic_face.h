@@ -77,7 +77,7 @@ void periodic_face_activate(movement_settings_t *settings, void *context);
 bool periodic_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void periodic_face_resign(movement_settings_t *settings, void *context);
 
-#define periodic_face ((const watch_face_t){ \
+#define periodic_face ((const watch_face_t) watch_face_t{ \
     periodic_face_setup, \
     periodic_face_activate, \
     periodic_face_loop, \

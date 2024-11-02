@@ -49,7 +49,7 @@ void set_time_face_activate(movement_settings_t *settings, void *context);
 bool set_time_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void set_time_face_resign(movement_settings_t *settings, void *context);
 
-#define set_time_face ((const watch_face_t){ \
+#define set_time_face ((const watch_face_t) watch_face_t{ \
     set_time_face_setup, \
     set_time_face_activate, \
     set_time_face_loop, \

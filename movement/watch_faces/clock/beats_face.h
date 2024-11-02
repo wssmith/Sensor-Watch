@@ -49,7 +49,7 @@ void beats_face_activate(movement_settings_t *settings, void *context);
 bool beats_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void beats_face_resign(movement_settings_t *settings, void *context);
 
-#define beats_face ((const watch_face_t){ \
+#define beats_face ((const watch_face_t) watch_face_t{ \
     beats_face_setup, \
     beats_face_activate, \
     beats_face_loop, \

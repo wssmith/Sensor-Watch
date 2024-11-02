@@ -57,7 +57,7 @@ bool minmax_face_loop(movement_event_t event, movement_settings_t *settings, voi
 void minmax_face_resign(movement_settings_t *settings, void *context);
 bool minmax_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define minmax_face ((const watch_face_t){ \
+#define minmax_face ((const watch_face_t) watch_face_t{ \
     minmax_face_setup, \
     minmax_face_activate, \
     minmax_face_loop, \

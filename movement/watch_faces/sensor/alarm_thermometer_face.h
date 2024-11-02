@@ -63,7 +63,7 @@ void alarm_thermometer_face_activate(movement_settings_t *settings, void *contex
 bool alarm_thermometer_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void alarm_thermometer_face_resign(movement_settings_t *settings, void *context);
 
-#define alarm_thermometer_face ((const watch_face_t){ \
+#define alarm_thermometer_face ((const watch_face_t) watch_face_t{ \
     alarm_thermometer_face_setup, \
     alarm_thermometer_face_activate, \
     alarm_thermometer_face_loop, \

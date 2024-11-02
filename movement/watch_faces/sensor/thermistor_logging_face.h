@@ -76,7 +76,7 @@ bool thermistor_logging_face_loop(movement_event_t event, movement_settings_t *s
 void thermistor_logging_face_resign(movement_settings_t *settings, void *context);
 bool thermistor_logging_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define thermistor_logging_face ((const watch_face_t){ \
+#define thermistor_logging_face ((const watch_face_t) watch_face_t{ \
     thermistor_logging_face_setup, \
     thermistor_logging_face_activate, \
     thermistor_logging_face_loop, \

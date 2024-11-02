@@ -45,7 +45,7 @@ void tuning_tones_face_activate(movement_settings_t *settings, void *context);
 bool tuning_tones_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void tuning_tones_face_resign(movement_settings_t *settings, void *context);
 
-#define tuning_tones_face ((const watch_face_t){ \
+#define tuning_tones_face ((const watch_face_t) watch_face_t{ \
     tuning_tones_face_setup, \
     tuning_tones_face_activate, \
     tuning_tones_face_loop, \

@@ -113,7 +113,7 @@ void butterfly_game_face_activate(movement_settings_t *settings, void *context);
 bool butterfly_game_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void butterfly_game_face_resign(movement_settings_t *settings, void *context);
 
-#define butterfly_game_face ((const watch_face_t){ \
+#define butterfly_game_face ((const watch_face_t) watch_face_t{ \
     butterfly_game_face_setup, \
     butterfly_game_face_activate, \
     butterfly_game_face_loop, \

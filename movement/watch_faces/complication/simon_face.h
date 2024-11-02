@@ -96,7 +96,7 @@ bool simon_face_loop(movement_event_t event, movement_settings_t *settings, void
 void simon_face_resign(movement_settings_t *settings, void *context);
 
 #define simon_face                                                             \
-    ((const watch_face_t){                                                       \
+    ((const watch_face_t) watch_face_t{                                                       \
      simon_face_setup,                                                        \
      simon_face_activate,                                                     \
      simon_face_loop,                                                         \

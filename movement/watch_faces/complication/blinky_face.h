@@ -64,7 +64,7 @@ void blinky_face_activate(movement_settings_t *settings, void *context);
 bool blinky_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void blinky_face_resign(movement_settings_t *settings, void *context);
 
-#define blinky_face ((const watch_face_t){ \
+#define blinky_face ((const watch_face_t) watch_face_t{ \
     blinky_face_setup, \
     blinky_face_activate, \
     blinky_face_loop, \

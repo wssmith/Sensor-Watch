@@ -71,16 +71,16 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\littlefs;$(MSBuildProjectDirectory)\littlefs\bd;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hri;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\hardware\include;$(MSBuildProjectDirectory)\watch-library\hardware\include\component;$(MSBuildProjectDirectory)\watch-library\hardware\include\instance;$(MSBuildProjectDirectory)\watch-library\hardware\include\pio;$(MSBuildProjectDirectory)\watch-library\hardware\watch;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(MSBuildProjectDirectory)\watch-library\simulator;$(MSBuildProjectDirectory)\watch-library\simulator\hpl\port;$(MSBuildProjectDirectory)\watch-library\simulator\watch;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\littlefs;$(MSBuildProjectDirectory)\littlefs\bd;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hri;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\hardware\include;$(MSBuildProjectDirectory)\watch-library\hardware\include\component;$(MSBuildProjectDirectory)\watch-library\hardware\include\instance;$(MSBuildProjectDirectory)\watch-library\hardware\include\pio;$(MSBuildProjectDirectory)\watch-library\hardware\watch;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(MSBuildProjectDirectory)\watch-library\simulator;$(MSBuildProjectDirectory)\watch-library\simulator\hpl\port;$(MSBuildProjectDirectory)\watch-library\simulator\watch;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\littlefs;$(MSBuildProjectDirectory)\littlefs\bd;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hri;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\hardware\include;$(MSBuildProjectDirectory)\watch-library\hardware\include\component;$(MSBuildProjectDirectory)\watch-library\hardware\include\instance;$(MSBuildProjectDirectory)\watch-library\hardware\include\pio;$(MSBuildProjectDirectory)\watch-library\hardware\watch;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(MSBuildProjectDirectory)\watch-library\simulator;$(MSBuildProjectDirectory)\watch-library\simulator\hpl\port;$(MSBuildProjectDirectory)\watch-library\simulator\watch;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildProjectDirectory)\boards;$(MSBuildProjectDirectory)\boards\OSO-SWAT-A1-05;$(MSBuildProjectDirectory)\littlefs;$(MSBuildProjectDirectory)\littlefs\bd;$(MSBuildProjectDirectory)\movement;$(MSBuildProjectDirectory)\movement\alt_fw;$(MSBuildProjectDirectory)\movement\lib;$(MSBuildProjectDirectory)\movement\lib\astrolib;$(MSBuildProjectDirectory)\movement\lib\base32;$(MSBuildProjectDirectory)\movement\lib\chirpy_tx;$(MSBuildProjectDirectory)\movement\lib\morsecalc;$(MSBuildProjectDirectory)\movement\lib\smallchesslib;$(MSBuildProjectDirectory)\movement\lib\sunriset;$(MSBuildProjectDirectory)\movement\lib\TOTP;$(MSBuildProjectDirectory)\movement\lib\vsop87;$(MSBuildProjectDirectory)\movement\template;$(MSBuildProjectDirectory)\movement\watch_faces;$(MSBuildProjectDirectory)\movement\watch_faces\clock;$(MSBuildProjectDirectory)\movement\watch_faces\complication;$(MSBuildProjectDirectory)\movement\watch_faces\demo;$(MSBuildProjectDirectory)\movement\watch_faces\sensor;$(MSBuildProjectDirectory)\movement\watch_faces\settings;$(MSBuildProjectDirectory)\watch-library\hardware;$(MSBuildProjectDirectory)\watch-library\hardware\hal;$(MSBuildProjectDirectory)\watch-library\hardware\hal\include;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils;$(MSBuildProjectDirectory)\watch-library\hardware\hal\utils\include;$(MSBuildProjectDirectory)\watch-library\hardware\hri;$(MSBuildProjectDirectory)\watch-library\hardware\hw;$(MSBuildProjectDirectory)\watch-library\hardware\include;$(MSBuildProjectDirectory)\watch-library\hardware\include\component;$(MSBuildProjectDirectory)\watch-library\hardware\include\instance;$(MSBuildProjectDirectory)\watch-library\hardware\include\pio;$(MSBuildProjectDirectory)\watch-library\hardware\watch;$(MSBuildProjectDirectory)\watch-library\shared;$(MSBuildProjectDirectory)\watch-library\shared\config;$(MSBuildProjectDirectory)\watch-library\shared\driver;$(MSBuildProjectDirectory)\watch-library\shared\watch;$(MSBuildProjectDirectory)\watch-library\simulator;$(MSBuildProjectDirectory)\watch-library\simulator\hpl\port;$(MSBuildProjectDirectory)\watch-library\simulator\watch;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -88,6 +88,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +104,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,6 +120,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +136,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,6 +159,11 @@
     <ClCompile Include="apps\spi-test\app.c" />
     <ClCompile Include="apps\starter-project\app.c" />
     <ClCompile Include="apps\uart-display\app.c" />
+    <ClCompile Include="littlefs\bd\lfs_filebd.c" />
+    <ClCompile Include="littlefs\bd\lfs_rambd.c" />
+    <ClCompile Include="littlefs\bd\lfs_testbd.c" />
+    <ClCompile Include="littlefs\lfs.c" />
+    <ClCompile Include="littlefs\lfs_util.c" />
     <ClCompile Include="movement\filesystem.c" />
     <ClCompile Include="movement\lib\astrolib\astrolib.c" />
     <ClCompile Include="movement\lib\base32\base32.c" />
@@ -291,12 +304,44 @@
     <ClCompile Include="watch-library\hardware\hal\utils\src\utils_list.c" />
     <ClCompile Include="watch-library\hardware\hal\utils\src\utils_syscalls.c" />
     <ClCompile Include="watch-library\hardware\hw\driver_init.c" />
+    <ClCompile Include="watch-library\hardware\main.c" />
+    <ClCompile Include="watch-library\hardware\startup_saml22.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_adc.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_buzzer.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_deepsleep.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_extint.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_gpio.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_i2c.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_led.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_private.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_private_cdc.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_rtc.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_slcd.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_spi.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_storage.c" />
+    <ClCompile Include="watch-library\hardware\watch\watch_uart.c" />
     <ClCompile Include="watch-library\shared\driver\lis2dw.c" />
     <ClCompile Include="watch-library\shared\driver\opt3001.c" />
     <ClCompile Include="watch-library\shared\driver\spiflash.c" />
     <ClCompile Include="watch-library\shared\driver\thermistor_driver.c" />
     <ClCompile Include="watch-library\shared\watch\watch_private_display.c" />
     <ClCompile Include="watch-library\shared\watch\watch_utility.c" />
+    <ClCompile Include="watch-library\simulator\main.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_adc.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_buzzer.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_deepsleep.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_extint.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_gpio.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_i2c.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_led.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_private.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_rtc.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_slcd.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_spi.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_storage.c" />
+    <ClCompile Include="watch-library\simulator\watch\watch_uart.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boards\OSO-FEAL-A1-00\pins.h" />
@@ -304,6 +349,11 @@
     <ClInclude Include="boards\OSO-SWAT-A1-04\pins.h" />
     <ClInclude Include="boards\OSO-SWAT-A1-05\pins.h" />
     <ClInclude Include="boards\OSO-SWAT-C1-00\pins.h" />
+    <ClInclude Include="littlefs\bd\lfs_filebd.h" />
+    <ClInclude Include="littlefs\bd\lfs_rambd.h" />
+    <ClInclude Include="littlefs\bd\lfs_testbd.h" />
+    <ClInclude Include="littlefs\lfs.h" />
+    <ClInclude Include="littlefs\lfs_util.h" />
     <ClInclude Include="movement\alt_fw\alt_time.h" />
     <ClInclude Include="movement\alt_fw\backer.h" />
     <ClInclude Include="movement\alt_fw\deep_space_now.h" />
@@ -496,7 +546,131 @@
     <ClInclude Include="watch-library\hardware\hal\utils\include\utils_list.h" />
     <ClInclude Include="watch-library\hardware\hal\utils\include\utils_recursion_macro.h" />
     <ClInclude Include="watch-library\hardware\hal\utils\include\utils_repeat_macro.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_ac_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_adc_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_aes_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_ccl_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_dmac_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_dsu_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_eic_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_evsys_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_freqm_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_gclk_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_mclk_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_mtb_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_nvic_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_nvmctrl_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_osc32kctrl_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_oscctrl_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_pac_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_pm_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_port_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_rstc_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_rtc_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_sercom_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_slcd_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_supc_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_systemcontrol_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_systick_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_tcc_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_tc_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_trng_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_usb_l22.h" />
+    <ClInclude Include="watch-library\hardware\hri\hri_wdt_l22.h" />
     <ClInclude Include="watch-library\hardware\hw\driver_init.h" />
+    <ClInclude Include="watch-library\hardware\include\component-version.h" />
+    <ClInclude Include="watch-library\hardware\include\component\ac.h" />
+    <ClInclude Include="watch-library\hardware\include\component\adc.h" />
+    <ClInclude Include="watch-library\hardware\include\component\aes.h" />
+    <ClInclude Include="watch-library\hardware\include\component\ccl.h" />
+    <ClInclude Include="watch-library\hardware\include\component\dmac.h" />
+    <ClInclude Include="watch-library\hardware\include\component\dsu.h" />
+    <ClInclude Include="watch-library\hardware\include\component\eic.h" />
+    <ClInclude Include="watch-library\hardware\include\component\evsys.h" />
+    <ClInclude Include="watch-library\hardware\include\component\freqm.h" />
+    <ClInclude Include="watch-library\hardware\include\component\gclk.h" />
+    <ClInclude Include="watch-library\hardware\include\component\mclk.h" />
+    <ClInclude Include="watch-library\hardware\include\component\mtb.h" />
+    <ClInclude Include="watch-library\hardware\include\component\nvmctrl.h" />
+    <ClInclude Include="watch-library\hardware\include\component\osc32kctrl.h" />
+    <ClInclude Include="watch-library\hardware\include\component\oscctrl.h" />
+    <ClInclude Include="watch-library\hardware\include\component\pac.h" />
+    <ClInclude Include="watch-library\hardware\include\component\pm.h" />
+    <ClInclude Include="watch-library\hardware\include\component\port.h" />
+    <ClInclude Include="watch-library\hardware\include\component\rstc.h" />
+    <ClInclude Include="watch-library\hardware\include\component\rtc.h" />
+    <ClInclude Include="watch-library\hardware\include\component\sercom.h" />
+    <ClInclude Include="watch-library\hardware\include\component\slcd.h" />
+    <ClInclude Include="watch-library\hardware\include\component\supc.h" />
+    <ClInclude Include="watch-library\hardware\include\component\tc.h" />
+    <ClInclude Include="watch-library\hardware\include\component\tcc.h" />
+    <ClInclude Include="watch-library\hardware\include\component\trng.h" />
+    <ClInclude Include="watch-library\hardware\include\component\usb.h" />
+    <ClInclude Include="watch-library\hardware\include\component\wdt.h" />
+    <ClInclude Include="watch-library\hardware\include\core_cm0plus.h" />
+    <ClInclude Include="watch-library\hardware\include\core_cmFunc.h" />
+    <ClInclude Include="watch-library\hardware\include\core_cmInstr.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\ac.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\adc.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\aes.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\ccl.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\dmac.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\dsu.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\eic.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\evsys.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\freqm.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\gclk.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\mclk.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\mtb.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\nvmctrl.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\osc32kctrl.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\oscctrl.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\pac.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\pm.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\port.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\ptc.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\rstc.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\rtc.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\sercom0.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\sercom1.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\sercom2.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\sercom3.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\sercom4.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\sercom5.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\slcd.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\supc.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\tc0.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\tc1.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\tc2.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\tc3.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\tcc0.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\trng.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\usb.h" />
+    <ClInclude Include="watch-library\hardware\include\instance\wdt.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22g16a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22g17a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22g18a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22j16a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22j17a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22j18a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22n16a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22n17a.h" />
+    <ClInclude Include="watch-library\hardware\include\pio\saml22n18a.h" />
+    <ClInclude Include="watch-library\hardware\include\sam.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22g16a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22g17a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22g18a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22j16a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22j17a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22j18a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22n16a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22n17a.h" />
+    <ClInclude Include="watch-library\hardware\include\saml22n18a.h" />
+    <ClInclude Include="watch-library\hardware\include\system_saml22.h" />
+    <ClInclude Include="watch-library\hardware\watch\tusb_config.h" />
+    <ClInclude Include="watch-library\hardware\watch\watch_private_cdc.h" />
     <ClInclude Include="watch-library\shared\config\hpl_dmac_config.h" />
     <ClInclude Include="watch-library\shared\config\hpl_eic_config.h" />
     <ClInclude Include="watch-library\shared\config\hpl_gclk_config.h" />
@@ -535,6 +709,8 @@
     <ClInclude Include="watch-library\shared\watch\watch_storage.h" />
     <ClInclude Include="watch-library\shared\watch\watch_uart.h" />
     <ClInclude Include="watch-library\shared\watch\watch_utility.h" />
+    <ClInclude Include="watch-library\simulator\hpl\port\hpl_gpio_base.h" />
+    <ClInclude Include="watch-library\simulator\watch\watch_main_loop.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="apps\accelerometer-test\Makefile" />
@@ -549,6 +725,11 @@
     <None Include="apps\spi-test\Makefile" />
     <None Include="apps\starter-project\Makefile" />
     <None Include="apps\uart-display\Makefile" />
+    <None Include="littlefs\DESIGN.md" />
+    <None Include="littlefs\LICENSE.md" />
+    <None Include="littlefs\Makefile" />
+    <None Include="littlefs\README.md" />
+    <None Include="littlefs\SPEC.md" />
     <None Include="movement\lib\astrolib\README.md" />
     <None Include="movement\lib\TOTP\README.md" />
     <None Include="movement\lib\vsop87\README.md" />
@@ -556,6 +737,7 @@
     <None Include="movement\make\make_alternate_fw.sh" />
     <None Include="movement\README.md" />
     <None Include="movement\template\watch_face.py" />
+    <None Include="watch-library\simulator\shell.html" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\sensor-board-pinout.png" />

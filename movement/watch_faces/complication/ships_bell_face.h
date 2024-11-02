@@ -57,7 +57,7 @@ bool ships_bell_face_loop(movement_event_t event, movement_settings_t *settings,
 void ships_bell_face_resign(movement_settings_t *settings, void *context);
 bool ships_bell_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define ships_bell_face ((const watch_face_t){ \
+#define ships_bell_face ((const watch_face_t) watch_face_t{ \
     ships_bell_face_setup, \
     ships_bell_face_activate, \
     ships_bell_face_loop, \

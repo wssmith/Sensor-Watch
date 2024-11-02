@@ -43,7 +43,7 @@ void voltage_face_activate(movement_settings_t *settings, void *context);
 bool voltage_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void voltage_face_resign(movement_settings_t *settings, void *context);
 
-#define voltage_face ((const watch_face_t){ \
+#define voltage_face ((const watch_face_t) watch_face_t{ \
     voltage_face_setup, \
     voltage_face_activate, \
     voltage_face_loop, \

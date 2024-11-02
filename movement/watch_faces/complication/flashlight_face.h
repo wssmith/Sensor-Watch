@@ -47,7 +47,7 @@ void flashlight_face_activate(movement_settings_t *settings, void *context);
 bool flashlight_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void flashlight_face_resign(movement_settings_t *settings, void *context);
 
-#define flashlight_face ((const watch_face_t){ \
+#define flashlight_face ((const watch_face_t) watch_face_t{ \
     flashlight_face_setup, \
     flashlight_face_activate, \
     flashlight_face_loop, \
