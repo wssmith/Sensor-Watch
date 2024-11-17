@@ -310,6 +310,90 @@
     <Filter Include="Source Files\tinyusb">
       <UniqueIdentifier>{96f45f1a-173e-42db-96c4-d2c237dc1349}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\tinyusb\hw">
+      <UniqueIdentifier>{fe700350-b3dc-4767-b1cc-4c310ec6fe46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\lib">
+      <UniqueIdentifier>{5eb08b81-24ab-4837-8718-903f0bf256da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\src">
+      <UniqueIdentifier>{39b834ea-b46b-446f-8272-d8b327841d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\hw">
+      <UniqueIdentifier>{bda6bc60-cf99-4cb1-b0ed-4277aab073eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\lib">
+      <UniqueIdentifier>{a5bff503-0ba7-43e5-bc52-bcf998a44b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\src">
+      <UniqueIdentifier>{b2dc7362-ec47-4088-afb0-a3e4f7138660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\src\common">
+      <UniqueIdentifier>{daaf1d21-f067-47a3-83a0-de1edaa8cda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\src\common">
+      <UniqueIdentifier>{d3e138a6-207c-480c-8b08-f3691c1cf405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\src\device">
+      <UniqueIdentifier>{bd2df591-723d-4fe3-864b-778e11975648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\src\host">
+      <UniqueIdentifier>{9334c21e-5ae2-49bb-aaea-2ce532ba1d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\src\osal">
+      <UniqueIdentifier>{a2caaa6e-0eab-4a02-99f0-eea7a33cb360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\src\portable">
+      <UniqueIdentifier>{8d80ef56-068e-41f2-a61c-a2ff056cbe78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\src\device">
+      <UniqueIdentifier>{75bed779-5c40-480e-99d9-e2704a7a5d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\src\host">
+      <UniqueIdentifier>{60e5b5ac-a330-4048-a56e-df713c28c25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\src\portable">
+      <UniqueIdentifier>{6f1b1577-64e3-40fa-9a77-168373b1e7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\lib\fatfs">
+      <UniqueIdentifier>{be8fbff9-0ab4-4f08-9aa5-b0f584b27f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\lib\networking">
+      <UniqueIdentifier>{a45128ac-17c3-478f-80aa-9aed4d39306d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\lib\fatfs">
+      <UniqueIdentifier>{60153188-9999-4ac1-9a38-8f746b03694d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\lib\networking">
+      <UniqueIdentifier>{0d5362ee-bc7b-4e62-8334-6c7242472f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\lib\SEGGER_RTT">
+      <UniqueIdentifier>{d019a23a-e33f-4897-a0c2-f80c5956877d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\lib\SEGGER_RTT">
+      <UniqueIdentifier>{eeba0601-6c67-4b5d-b3da-88e551019310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\lib\SEGGER_RTT\RTT">
+      <UniqueIdentifier>{f30f11c7-eeea-4f54-bdbd-7c19d4d15b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\lib\SEGGER_RTT\RTT">
+      <UniqueIdentifier>{212c1478-85e2-49c5-92dc-84efa539caf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\lib\SEGGER_RTT\Syscalls">
+      <UniqueIdentifier>{f900a375-b084-48e0-8747-0d688b5d151b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\hw\bsp">
+      <UniqueIdentifier>{f091e20b-8681-4f8b-8c21-1f8e43a75c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinyusb\hw\mcu">
+      <UniqueIdentifier>{3c034a00-2b07-4a10-9ea8-b32a392f72bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\hw\bsp">
+      <UniqueIdentifier>{9c1cf74c-16b8-4a5b-8c13-875f009eec2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyusb\hw\mcu">
+      <UniqueIdentifier>{3e235afc-d643-4d2a-86f9-bb65171d55f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="movement\filesystem.c">
@@ -896,6 +980,63 @@
     </ClCompile>
     <ClCompile Include="littlefs\bd\lfs_testbd.c">
       <Filter>Source Files\littlefs\bd</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\tusb.c">
+      <Filter>Source Files\tinyusb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\common\tusb_fifo.c">
+      <Filter>Source Files\tinyusb\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\device\usbd.c">
+      <Filter>Source Files\tinyusb\src\device</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\device\usbd_control.c">
+      <Filter>Source Files\tinyusb\src\device</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\host\hub.c">
+      <Filter>Source Files\tinyusb\src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\host\usbh.c">
+      <Filter>Source Files\tinyusb\src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\src\host\usbh_control.c">
+      <Filter>Source Files\tinyusb\src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\fatfs\ccsbcs.c">
+      <Filter>Source Files\tinyusb\lib\fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\fatfs\diskio.c">
+      <Filter>Source Files\tinyusb\lib\fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\fatfs\ff.c">
+      <Filter>Source Files\tinyusb\lib\fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\networking\dhserver.c">
+      <Filter>Source Files\tinyusb\lib\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\networking\dnserver.c">
+      <Filter>Source Files\tinyusb\lib\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\networking\rndis_reports.c">
+      <Filter>Source Files\tinyusb\lib\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT.c">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\RTT</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT_printf.c">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\RTT</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\SEGGER_RTT\Syscalls\SEGGER_RTT_Syscalls_GCC.c">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\Syscalls</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\SEGGER_RTT\Syscalls\SEGGER_RTT_Syscalls_IAR.c">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\Syscalls</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\SEGGER_RTT\Syscalls\SEGGER_RTT_Syscalls_KEIL.c">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\Syscalls</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyusb\lib\SEGGER_RTT\Syscalls\SEGGER_RTT_Syscalls_SES.c">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\Syscalls</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2000,6 +2141,108 @@
     <ClInclude Include="littlefs\bd\lfs_testbd.h">
       <Filter>Header Files\littlefs\bd</Filter>
     </ClInclude>
+    <ClInclude Include="tinyusb\src\tusb.h">
+      <Filter>Header Files\tinyusb\src</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\tusb_option.h">
+      <Filter>Header Files\tinyusb\src</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_common.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_compiler.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_error.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_fifo.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_timeout.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_types.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\common\tusb_verify.h">
+      <Filter>Header Files\tinyusb\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\device\dcd.h">
+      <Filter>Header Files\tinyusb\src\device</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\device\dcd_attr.h">
+      <Filter>Header Files\tinyusb\src\device</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\device\usbd.h">
+      <Filter>Header Files\tinyusb\src\device</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\device\usbd_pvt.h">
+      <Filter>Header Files\tinyusb\src\device</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\host\hcd.h">
+      <Filter>Header Files\tinyusb\src\host</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\host\hcd_attr.h">
+      <Filter>Header Files\tinyusb\src\host</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\host\hub.h">
+      <Filter>Header Files\tinyusb\src\host</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\host\usbh.h">
+      <Filter>Header Files\tinyusb\src\host</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\host\usbh_classdriver.h">
+      <Filter>Header Files\tinyusb\src\host</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\osal\osal.h">
+      <Filter>Header Files\tinyusb\src\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\osal\osal_freertos.h">
+      <Filter>Header Files\tinyusb\src\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\osal\osal_mynewt.h">
+      <Filter>Header Files\tinyusb\src\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\osal\osal_none.h">
+      <Filter>Header Files\tinyusb\src\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\osal\osal_pico.h">
+      <Filter>Header Files\tinyusb\src\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\src\osal\osal_rtthread.h">
+      <Filter>Header Files\tinyusb\src\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\fatfs\diskio.h">
+      <Filter>Header Files\tinyusb\lib\fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\fatfs\ff.h">
+      <Filter>Header Files\tinyusb\lib\fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\fatfs\ffconf.h">
+      <Filter>Header Files\tinyusb\lib\fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\fatfs\integer.h">
+      <Filter>Header Files\tinyusb\lib\fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\networking\dhserver.h">
+      <Filter>Header Files\tinyusb\lib\networking</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\networking\dnserver.h">
+      <Filter>Header Files\tinyusb\lib\networking</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\networking\ndis.h">
+      <Filter>Header Files\tinyusb\lib\networking</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\networking\rndis_protocol.h">
+      <Filter>Header Files\tinyusb\lib\networking</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT.h">
+      <Filter>Header Files\tinyusb\lib\SEGGER_RTT\RTT</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT_Conf.h">
+      <Filter>Header Files\tinyusb\lib\SEGGER_RTT\RTT</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="movement\template\watch_face.py">
@@ -2077,6 +2320,12 @@
     <None Include="littlefs\SPEC.md">
       <Filter>Source Files\littlefs</Filter>
     </None>
+    <None Include="tinyusb\README.rst">
+      <Filter>Header Files\tinyusb</Filter>
+    </None>
+    <None Include="tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT_ASM_ARMv7M.S">
+      <Filter>Source Files\tinyusb\lib\SEGGER_RTT\RTT</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\sensor-board.png">
@@ -2088,5 +2337,10 @@
     <Image Include="images\sensor-watch.jpg">
       <Filter>Resource Files\images</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tinyusb\lib\SEGGER_RTT\README.txt">
+      <Filter>Header Files\tinyusb\lib\SEGGER_RTT</Filter>
+    </Text>
   </ItemGroup>
 </Project>
