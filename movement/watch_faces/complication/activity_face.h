@@ -76,7 +76,7 @@ void activity_face_activate(movement_settings_t *settings, void *context);
 bool activity_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void activity_face_resign(movement_settings_t *settings, void *context);
 
-#define activity_face ((const watch_face_t) watch_face_t{ \
+#define activity_face ((const watch_face_t) { \
     activity_face_setup, \
     activity_face_activate, \
     activity_face_loop, \

@@ -133,7 +133,7 @@ void simple_calculator_face_activate(movement_settings_t *settings, void *contex
 bool simple_calculator_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void simple_calculator_face_resign(movement_settings_t *settings, void *context);
 
-#define simple_calculator_face ((const watch_face_t) watch_face_t{ \
+#define simple_calculator_face ((const watch_face_t) { \
     simple_calculator_face_setup, \
     simple_calculator_face_activate, \
     simple_calculator_face_loop, \

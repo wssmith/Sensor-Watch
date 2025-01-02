@@ -43,7 +43,7 @@ void breathing_face_activate(movement_settings_t *settings, void *context);
 bool breathing_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void breathing_face_resign(movement_settings_t *settings, void *context);
 
-#define breathing_face ((const watch_face_t) watch_face_t{ \
+#define breathing_face ((const watch_face_t) { \
     breathing_face_setup, \
     breathing_face_activate, \
     breathing_face_loop, \

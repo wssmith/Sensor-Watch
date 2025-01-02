@@ -50,7 +50,7 @@ void endless_runner_face_activate(movement_settings_t *settings, void *context);
 bool endless_runner_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void endless_runner_face_resign(movement_settings_t *settings, void *context);
 
-#define endless_runner_face ((const watch_face_t) watch_face_t{ \
+#define endless_runner_face ((const watch_face_t) { \
     endless_runner_face_setup, \
     endless_runner_face_activate, \
     endless_runner_face_loop, \

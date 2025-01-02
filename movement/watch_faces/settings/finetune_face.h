@@ -65,7 +65,7 @@ void finetune_face_activate(movement_settings_t *settings, void *context);
 bool finetune_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void finetune_face_resign(movement_settings_t *settings, void *context);
 
-#define finetune_face ((const watch_face_t) watch_face_t{ \
+#define finetune_face ((const watch_face_t) { \
     finetune_face_setup, \
     finetune_face_activate, \
     finetune_face_loop, \

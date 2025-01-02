@@ -79,7 +79,7 @@ void smallchess_face_activate(movement_settings_t *settings, void *context);
 bool smallchess_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void smallchess_face_resign(movement_settings_t *settings, void *context);
 
-#define smallchess_face ((const watch_face_t) watch_face_t{ \
+#define smallchess_face ((const watch_face_t) { \
     smallchess_face_setup, \
     smallchess_face_activate, \
     smallchess_face_loop, \

@@ -43,7 +43,7 @@ void thermistor_testing_face_activate(movement_settings_t *settings, void *conte
 bool thermistor_testing_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void thermistor_testing_face_resign(movement_settings_t *settings, void *context);
 
-#define thermistor_testing_face ((const watch_face_t) watch_face_t{ \
+#define thermistor_testing_face ((const watch_face_t) { \
     thermistor_testing_face_setup, \
     thermistor_testing_face_activate, \
     thermistor_testing_face_loop, \

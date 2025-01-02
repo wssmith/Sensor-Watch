@@ -52,7 +52,7 @@ void counter_face_resign(movement_settings_t *settings, void *context);
 void print_counter(counter_state_t *state);
 void beep_counter(counter_state_t *state);
 
-#define counter_face ((const watch_face_t) watch_face_t{ \
+#define counter_face ((const watch_face_t) { \
     counter_face_setup, \
     counter_face_activate, \
     counter_face_loop, \

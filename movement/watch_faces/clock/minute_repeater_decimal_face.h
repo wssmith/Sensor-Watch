@@ -73,7 +73,7 @@ bool minute_repeater_decimal_face_loop(movement_event_t event, movement_settings
 void minute_repeater_decimal_face_resign(movement_settings_t *settings, void *context);
 bool minute_repeater_decimal_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define minute_repeater_decimal_face ((const watch_face_t) watch_face_t{ \
+#define minute_repeater_decimal_face ((const watch_face_t) { \
     minute_repeater_decimal_face_setup, \
     minute_repeater_decimal_face_activate, \
     minute_repeater_decimal_face_loop, \

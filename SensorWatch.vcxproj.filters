@@ -1038,6 +1038,12 @@
     <ClCompile Include="tinyusb\lib\SEGGER_RTT\Syscalls\SEGGER_RTT_Syscalls_SES.c">
       <Filter>Source Files\tinyusb\lib\SEGGER_RTT\Syscalls</Filter>
     </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\blink_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\soundboard_face.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="movement\filesystem.h">
@@ -2243,6 +2249,12 @@
     <ClInclude Include="tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT_Conf.h">
       <Filter>Header Files\tinyusb\lib\SEGGER_RTT\RTT</Filter>
     </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\blink_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
+    <ClInclude Include="movement\watch_faces\complication\soundboard_face.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="movement\template\watch_face.py">
@@ -2341,6 +2353,9 @@
   <ItemGroup>
     <Text Include="tinyusb\lib\SEGGER_RTT\README.txt">
       <Filter>Header Files\tinyusb\lib\SEGGER_RTT</Filter>
+    </Text>
+    <Text Include="movement\watch_faces\complication\soundboard_tunes.h">
+      <Filter>Header Files\movement\watch_faces\complication</Filter>
     </Text>
   </ItemGroup>
 </Project>

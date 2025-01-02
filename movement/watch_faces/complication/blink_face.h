@@ -1,7 +1,7 @@
 /*
  * MIT License
  *
- * Copyright (c) 2022 Joey Castillo
+ * Copyright (c) 2024 Wesley Smith
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,34 +22,36 @@
  * SOFTWARE.
  */
 
-#ifndef HELLO_THERE_FACE_H_
-#define HELLO_THERE_FACE_H_
-
-/*
- * HELLO THERE FACE
- *
- * A simple demo that displays the word "Hello" and then the word "there",
- * on an endless loop. Press ALARM to pause or resume the animation.
- */
+#ifndef BLINK_FACE_H_
+#define BLINK_FACE_H_
 
 #include "movement.h"
 
+/*
+ * BLINK
+ *
+ * A watch face that blinks!
+ *
+ */
+
 typedef struct {
-    uint8_t current_word;
-    bool animating;
-} hello_there_state_t;
+    bool active;
+    bool fast;
+    uint8_t color;
+} blink_state_t;
 
-void hello_there_face_setup(movement_settings_t *settings, uint8_t watch_face_index, void ** context_ptr);
-void hello_there_face_activate(movement_settings_t *settings, void *context);
-bool hello_there_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
-void hello_there_face_resign(movement_settings_t *settings, void *context);
+void blink_face_setup(movement_settings_t *settings, uint8_t watch_face_index, void ** context_ptr);
+void blink_face_activate(movement_settings_t *settings, void *context);
+bool blink_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
+void blink_face_resign(movement_settings_t *settings, void *context);
 
-#define hello_there_face ((const watch_face_t) { \
-    hello_there_face_setup, \
-    hello_there_face_activate, \
-    hello_there_face_loop, \
-    hello_there_face_resign, \
+#define blink_face ((const watch_face_t) { \
+    blink_face_setup, \
+    blink_face_activate, \
+    blink_face_loop, \
+    blink_face_resign, \
     NULL, \
 })
 
-#endif // HELLO_THERE_FACE_H_
+#endif // BLINK_FACE_H_
+

@@ -22,7 +22,7 @@ void wareki_resign(movement_settings_t *settings, void *context);
 void addYear(wareki_state_t* state,int count);
 void subYear(wareki_state_t* state,int count);
 
-#define wareki_face ((const watch_face_t) watch_face_t{ \
+#define wareki_face ((const watch_face_t) { \
     wareki_setup, \
     wareki_activate, \
     wareki_loop, \

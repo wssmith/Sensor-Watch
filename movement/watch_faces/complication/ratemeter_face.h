@@ -47,7 +47,7 @@ void ratemeter_face_activate(movement_settings_t *settings, void *context);
 bool ratemeter_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void ratemeter_face_resign(movement_settings_t *settings, void *context);
 
-#define ratemeter_face ((const watch_face_t) watch_face_t{ \
+#define ratemeter_face ((const watch_face_t) { \
     ratemeter_face_setup, \
     ratemeter_face_activate, \
     ratemeter_face_loop, \

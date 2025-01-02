@@ -25,3 +25,4 @@ _autosave*
 fp-info-cache
 .~*
 *.plan
+/x64/Debug

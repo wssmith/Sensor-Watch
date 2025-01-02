@@ -137,7 +137,7 @@ void wordle_face_activate(movement_settings_t *settings, void *context);
 bool wordle_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void wordle_face_resign(movement_settings_t *settings, void *context);
 
-#define wordle_face ((const watch_face_t) watch_face_t{ \
+#define wordle_face ((const watch_face_t) { \
     wordle_face_setup, \
     wordle_face_activate, \
     wordle_face_loop, \

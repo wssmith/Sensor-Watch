@@ -69,7 +69,7 @@ void rpn_calculator_face_activate(movement_settings_t *settings, void *context);
 bool rpn_calculator_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void rpn_calculator_face_resign(movement_settings_t *settings, void *context);
 
-#define rpn_calculator_face ((const watch_face_t) watch_face_t{ \
+#define rpn_calculator_face ((const watch_face_t) { \
     rpn_calculator_face_setup, \
     rpn_calculator_face_activate, \
     rpn_calculator_face_loop, \

@@ -96,7 +96,7 @@ void em_dual_timer_cb_handler(void *userData);
 void TC2_Handler(void);
 #endif
 
-#define dual_timer_face ((const watch_face_t) watch_face_t{ \
+#define dual_timer_face ((const watch_face_t) { \
     dual_timer_face_setup, \
     dual_timer_face_activate, \
     dual_timer_face_loop, \

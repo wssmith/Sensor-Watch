@@ -60,7 +60,7 @@ void decimal_time_face_resign(movement_settings_t *settings, void *context);
 // void decimal_time_face_wants_background_task();
 
 
-#define decimal_time_face ((const watch_face_t) watch_face_t{ \
+#define decimal_time_face ((const watch_face_t) { \
     decimal_time_face_setup, \
     decimal_time_face_activate, \
     decimal_time_face_loop, \

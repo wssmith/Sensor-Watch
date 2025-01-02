@@ -80,7 +80,7 @@ void time_left_face_activate(movement_settings_t *settings, void *context);
 bool time_left_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void time_left_face_resign(movement_settings_t *settings, void *context);
 
-#define time_left_face ((const watch_face_t) watch_face_t{ \
+#define time_left_face ((const watch_face_t) { \
     time_left_face_setup, \
     time_left_face_activate, \
     time_left_face_loop, \

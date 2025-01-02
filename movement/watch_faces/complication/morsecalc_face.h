@@ -152,7 +152,7 @@ typedef struct {
 void morsecalc_reset_token(morsecalc_state_t *mcs);
 void morsecalc_input(morsecalc_state_t *mcs);
 
-#define morsecalc_face ((const watch_face_t) watch_face_t{ \
+#define morsecalc_face ((const watch_face_t) { \
     morsecalc_face_setup, \
     morsecalc_face_activate, \
     morsecalc_face_loop, \

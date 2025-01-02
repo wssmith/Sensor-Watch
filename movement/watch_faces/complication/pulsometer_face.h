@@ -76,7 +76,7 @@ void pulsometer_face_activate(movement_settings_t *settings, void *context);
 bool pulsometer_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void pulsometer_face_resign(movement_settings_t *settings, void *context);
 
-#define pulsometer_face ((const watch_face_t) watch_face_t{ \
+#define pulsometer_face ((const watch_face_t) { \
     pulsometer_face_setup, \
     pulsometer_face_activate, \
     pulsometer_face_loop, \

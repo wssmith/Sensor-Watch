@@ -54,7 +54,7 @@ bool wake_face_loop(movement_event_t event, movement_settings_t *settings, void 
 void wake_face_resign(movement_settings_t *settings, void *context);
 bool wake_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define wake_face ((const watch_face_t) watch_face_t{ \
+#define wake_face ((const watch_face_t) { \
     wake_face_setup, \
     wake_face_activate, \
     wake_face_loop, \

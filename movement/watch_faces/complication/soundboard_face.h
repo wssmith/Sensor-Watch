@@ -1,7 +1,7 @@
 /*
  * MIT License
  *
- * Copyright (c) 2022 Joey Castillo
+ * Copyright (c) 2024 <#author_name#>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,34 +22,34 @@
  * SOFTWARE.
  */
 
-#ifndef HELLO_THERE_FACE_H_
-#define HELLO_THERE_FACE_H_
-
-/*
- * HELLO THERE FACE
- *
- * A simple demo that displays the word "Hello" and then the word "there",
- * on an endless loop. Press ALARM to pause or resume the animation.
- */
+#ifndef SOUNDBOARD_FACE_H_
+#define SOUNDBOARD_FACE_H_
 
 #include "movement.h"
 
+/*
+ * A DESCRIPTION OF YOUR WATCH FACE
+ *
+ * and a description of how use it
+ *
+ */
+
 typedef struct {
-    uint8_t current_word;
-    bool animating;
-} hello_there_state_t;
+    uint8_t tune_index;
+} soundboard_state_t;
 
-void hello_there_face_setup(movement_settings_t *settings, uint8_t watch_face_index, void ** context_ptr);
-void hello_there_face_activate(movement_settings_t *settings, void *context);
-bool hello_there_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
-void hello_there_face_resign(movement_settings_t *settings, void *context);
+void soundboard_face_setup(movement_settings_t *settings, uint8_t watch_face_index, void ** context_ptr);
+void soundboard_face_activate(movement_settings_t *settings, void *context);
+bool soundboard_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
+void soundboard_face_resign(movement_settings_t *settings, void *context);
 
-#define hello_there_face ((const watch_face_t) { \
-    hello_there_face_setup, \
-    hello_there_face_activate, \
-    hello_there_face_loop, \
-    hello_there_face_resign, \
+#define soundboard_face ((const watch_face_t) { \
+    soundboard_face_setup, \
+    soundboard_face_activate, \
+    soundboard_face_loop, \
+    soundboard_face_resign, \
     NULL, \
 })
 
-#endif // HELLO_THERE_FACE_H_
+#endif // SOUNDBOARD_FACE_H_
+

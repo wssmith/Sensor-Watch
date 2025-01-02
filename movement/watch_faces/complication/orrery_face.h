@@ -90,7 +90,7 @@ void orrery_face_activate(movement_settings_t *settings, void *context);
 bool orrery_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void orrery_face_resign(movement_settings_t *settings, void *context);
 
-#define orrery_face ((const watch_face_t) watch_face_t{ \
+#define orrery_face ((const watch_face_t) { \
     orrery_face_setup, \
     orrery_face_activate, \
     orrery_face_loop, \

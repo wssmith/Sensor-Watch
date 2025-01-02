@@ -54,7 +54,7 @@ bool deadline_face_loop(movement_event_t event, movement_settings_t *settings, v
 void deadline_face_resign(movement_settings_t *settings, void *context);
 bool deadline_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define deadline_face ((const watch_face_t) watch_face_t{ \
+#define deadline_face ((const watch_face_t) { \
     deadline_face_setup, \
     deadline_face_activate, \
     deadline_face_loop, \

@@ -91,7 +91,7 @@ bool alarm_face_loop(movement_event_t event, movement_settings_t *settings, void
 void alarm_face_resign(movement_settings_t *settings, void *context);
 bool alarm_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define alarm_face ((const watch_face_t) watch_face_t{ \
+#define alarm_face ((const watch_face_t) { \
     alarm_face_setup, \
     alarm_face_activate, \
     alarm_face_loop, \

@@ -91,7 +91,7 @@ void timer_face_activate(movement_settings_t *settings, void *context);
 bool timer_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void timer_face_resign(movement_settings_t *settings, void *context);
 
-#define timer_face ((const watch_face_t) watch_face_t{ \
+#define timer_face ((const watch_face_t) { \
     timer_face_setup, \
     timer_face_activate, \
     timer_face_loop, \

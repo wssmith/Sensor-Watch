@@ -43,7 +43,7 @@ void demo_face_activate(movement_settings_t *settings, void *context);
 bool demo_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void demo_face_resign(movement_settings_t *settings, void *context);
 
-#define demo_face ((const watch_face_t) watch_face_t{ \
+#define demo_face ((const watch_face_t) { \
     demo_face_setup, \
     demo_face_activate, \
     demo_face_loop, \

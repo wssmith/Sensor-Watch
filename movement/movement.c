@@ -334,12 +334,12 @@ void movement_request_wake() {
     _movement_reset_inactivity_countdown();
 }
 
-static void end_buzzing() {
+void movement_end_buzzing(void) {
     movement_state.is_buzzing = false;
 }
 
-static void end_buzzing_and_disable_buzzer(void) {
-    end_buzzing();
+void movement_end_buzzing_and_disable_buzzer(void) {
+    movement_end_buzzing();
     watch_disable_buzzer();
 }
 
@@ -352,14 +352,31 @@ static void set_initial_clock_mode(void) {
 }
 
 void movement_play_signal(void) {
-    void *maybe_disable_buzzer = end_buzzing_and_disable_buzzer;
+    void *maybe_disable_buzzer = movement_end_buzzing_and_disable_buzzer;
     if (watch_is_buzzer_or_led_enabled()) {
-        maybe_disable_buzzer = end_buzzing;
+        maybe_disable_buzzer = movement_end_buzzing;
     } else {
         watch_enable_buzzer();
     }
     movement_state.is_buzzing = true;
     watch_buzzer_play_sequence(signal_tune, maybe_disable_buzzer);
+    if (movement_state.le_mode_ticks == -1) {
+        // the watch is asleep. wake it up for "1" round through the main loop.
+        // the sleep_mode_app_loop will notice the is_buzzing and note that it
+        // only woke up to beep and then it will spinlock until the callback
+        // turns off the is_buzzing flag.
+        movement_state.needs_wake = true;
+        movement_state.le_mode_ticks = 1;
+    }
+}
+
+void movement_play_tune(int8_t* tune, tune_end_callback callback_on_end) {
+    if (!watch_is_buzzer_or_led_enabled()) {
+        watch_enable_buzzer();
+    }
+
+    movement_state.is_buzzing = true;
+    watch_buzzer_play_sequence(tune, callback_on_end);
     if (movement_state.le_mode_ticks == -1) {
         // the watch is asleep. wake it up for "1" round through the main loop.
         // the sleep_mode_app_loop will notice the is_buzzing and note that it

@@ -207,6 +207,7 @@
     <ClCompile Include="movement\watch_faces\complication\alarm_face.c" />
     <ClCompile Include="movement\watch_faces\complication\astronomy_face.c" />
     <ClCompile Include="movement\watch_faces\complication\blinky_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\blink_face.c" />
     <ClCompile Include="movement\watch_faces\complication\breathing_face.c" />
     <ClCompile Include="movement\watch_faces\complication\butterfly_game_face.c" />
     <ClCompile Include="movement\watch_faces\complication\couch_to_5k_face.c" />
@@ -246,6 +247,7 @@
     <ClCompile Include="movement\watch_faces\complication\simple_coin_flip_face.c" />
     <ClCompile Include="movement\watch_faces\complication\smallchess_face.c" />
     <ClCompile Include="movement\watch_faces\complication\solstice_face.c" />
+    <ClCompile Include="movement\watch_faces\complication\soundboard_face.c" />
     <ClCompile Include="movement\watch_faces\complication\stock_stopwatch_face.c" />
     <ClCompile Include="movement\watch_faces\complication\stopwatch_face.c" />
     <ClCompile Include="movement\watch_faces\complication\sunrise_sunset_face.c" />
@@ -425,6 +427,7 @@
     <ClInclude Include="movement\watch_faces\complication\alarm_face.h" />
     <ClInclude Include="movement\watch_faces\complication\astronomy_face.h" />
     <ClInclude Include="movement\watch_faces\complication\blinky_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\blink_face.h" />
     <ClInclude Include="movement\watch_faces\complication\breathing_face.h" />
     <ClInclude Include="movement\watch_faces\complication\butterfly_game_face.h" />
     <ClInclude Include="movement\watch_faces\complication\couch_to_5k_face.h" />
@@ -464,6 +467,7 @@
     <ClInclude Include="movement\watch_faces\complication\simple_coin_flip_face.h" />
     <ClInclude Include="movement\watch_faces\complication\smallchess_face.h" />
     <ClInclude Include="movement\watch_faces\complication\solstice_face.h" />
+    <ClInclude Include="movement\watch_faces\complication\soundboard_face.h" />
     <ClInclude Include="movement\watch_faces\complication\stock_stopwatch_face.h" />
     <ClInclude Include="movement\watch_faces\complication\stopwatch_face.h" />
     <ClInclude Include="movement\watch_faces\complication\sunrise_sunset_face.h" />
@@ -800,6 +804,7 @@
     <Image Include="images\sensor-watch.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="movement\watch_faces\complication\soundboard_tunes.h" />
     <Text Include="tinyusb\lib\SEGGER_RTT\README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

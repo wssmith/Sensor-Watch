@@ -72,7 +72,7 @@ bool repetition_minute_face_loop(movement_event_t event, movement_settings_t *se
 void repetition_minute_face_resign(movement_settings_t *settings, void *context);
 bool repetition_minute_face_wants_background_task(movement_settings_t *settings, void *context);
 
-#define repetition_minute_face ((const watch_face_t) watch_face_t{ \
+#define repetition_minute_face ((const watch_face_t) { \
     repetition_minute_face_setup, \
     repetition_minute_face_activate, \
     repetition_minute_face_loop, \

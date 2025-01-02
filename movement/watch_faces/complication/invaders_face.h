@@ -70,7 +70,7 @@ void invaders_face_activate(movement_settings_t *settings, void *context);
 bool invaders_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void invaders_face_resign(movement_settings_t *settings, void *context);
 
-#define invaders_face ((const watch_face_t) watch_face_t{ \
+#define invaders_face ((const watch_face_t) { \
     invaders_face_setup, \
     invaders_face_activate, \
     invaders_face_loop, \

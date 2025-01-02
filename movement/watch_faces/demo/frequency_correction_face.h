@@ -48,7 +48,7 @@ void frequency_correction_face_activate(movement_settings_t *settings, void *con
 bool frequency_correction_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void frequency_correction_face_resign(movement_settings_t *settings, void *context);
 
-#define frequency_correction_face ((const watch_face_t) watch_face_t{ \
+#define frequency_correction_face ((const watch_face_t) { \
     frequency_correction_face_setup, \
     frequency_correction_face_activate, \
     frequency_correction_face_loop, \

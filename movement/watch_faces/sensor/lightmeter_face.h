@@ -180,7 +180,7 @@ void lightmeter_face_resign(movement_settings_t *settings, void *context);
 
 static const uint8_t lightmeter_addr = 0x44;
 
-#define lightmeter_face ((const watch_face_t) watch_face_t{ \
+#define lightmeter_face ((const watch_face_t) { \
     lightmeter_face_setup, \
     lightmeter_face_activate, \
     lightmeter_face_loop, \

@@ -75,7 +75,7 @@ void couch_to_5k_face_activate(movement_settings_t *settings, void *context);
 bool couch_to_5k_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void couch_to_5k_face_resign(movement_settings_t *settings, void *context);
 
-#define couch_to_5k_face ((const watch_face_t) watch_face_t{ \
+#define couch_to_5k_face ((const watch_face_t) { \
     couch_to_5k_face_setup, \
     couch_to_5k_face_activate, \
     couch_to_5k_face_loop, \

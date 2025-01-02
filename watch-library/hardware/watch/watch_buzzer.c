@@ -73,7 +73,9 @@ static void _tc3_initialize() {
     NVIC_EnableIRQ (TC3_IRQn);
 }
 
-void watch_buzzer_play_sequence(int8_t *note_sequence, void (*callback_on_end)(void)) {
+typedef void (*buzzer_callback)(void);
+
+void watch_buzzer_play_sequence(int8_t *note_sequence, buzzer_callback callback_on_end) {
     if (_callback_running) _tc3_stop();
     watch_set_buzzer_off();
     _sequence = note_sequence;

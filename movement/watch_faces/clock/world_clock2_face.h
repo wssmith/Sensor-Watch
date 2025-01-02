@@ -111,7 +111,7 @@ void world_clock2_face_activate(movement_settings_t *settings, void *context);
 bool world_clock2_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void world_clock2_face_resign(movement_settings_t *settings, void *context);
 
-#define world_clock2_face ((const watch_face_t) watch_face_t{ \
+#define world_clock2_face ((const watch_face_t) { \
     world_clock2_face_setup, \
     world_clock2_face_activate, \
     world_clock2_face_loop, \

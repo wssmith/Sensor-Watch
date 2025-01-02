@@ -69,7 +69,7 @@ void em_cb_handler(void *userData);
 void TC2_Handler(void);
 #endif
 
-#define stock_stopwatch_face ((const watch_face_t) watch_face_t{ \
+#define stock_stopwatch_face ((const watch_face_t) { \
     stock_stopwatch_face_setup, \
     stock_stopwatch_face_activate, \
     stock_stopwatch_face_loop, \

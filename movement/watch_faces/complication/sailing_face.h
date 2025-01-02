@@ -86,7 +86,7 @@ void sailing_face_activate(movement_settings_t *settings, void *context);
 bool sailing_face_loop(movement_event_t event, movement_settings_t *settings, void *context);
 void sailing_face_resign(movement_settings_t *settings, void *context);
 
-#define sailing_face ((const watch_face_t) watch_face_t{ \
+#define sailing_face ((const watch_face_t) { \
     sailing_face_setup, \
     sailing_face_activate, \
     sailing_face_loop, \

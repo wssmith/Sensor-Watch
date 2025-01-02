@@ -219,7 +219,7 @@ void place_face_resign(movement_settings_t *settings, void *context);
 void place_latlon_to_olc(char *pluscode, double latitude, double longitude);
 void place_latlon_to_geohash(char *geohash, double latitude, double longitude);
 
-#define place_face ((const watch_face_t) watch_face_t{ \
+#define place_face ((const watch_face_t) { \
     place_face_setup, \
     place_face_activate, \
     place_face_loop, \
