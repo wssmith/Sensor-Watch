@@ -33,9 +33,10 @@ typedef struct {
 	int8_t* notes;
 } tune_entry;
 
-static const uint8_t tune_count = 12;
+static const uint8_t tune_count = 13;
 
 static tune_entry tunes[] = {
+    { "Homecm" , homecoming_tune },
     { " Ghost", friendly_ghost_tune },
     { "Airflo", airflow_tune },
     { " Fairy", zelda_fairy_tune },
