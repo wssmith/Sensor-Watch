@@ -52,7 +52,8 @@ static tune_entry tunes[] = {
 };
 
 static const char* face_name = "SB";
-static const WatchIndicatorSegment tune_playing_indicator = WATCH_INDICATOR_SIGNAL;
+static const WatchIndicatorSegment playing_indicator = WATCH_INDICATOR_SIGNAL;
+static const WatchIndicatorSegment looping_indicator = WATCH_INDICATOR_24H;
 
 static volatile bool tune_playing = false;
 static volatile bool tune_looping = false;
@@ -171,14 +172,20 @@ static void soundboard_face_update_lcd(soundboard_state_t* state) {
     tune_entry* entry = get_selected_tune(state->tune_index);
     
     char buf[11];
-    sprintf(buf, "%s %c%s", face_name, tune_looping ? 'L' : ' ', entry->name);
+    sprintf(buf, "%s% 2u%s", face_name, (state->tune_index + 1), entry->name);
     watch_display_string(buf, 0);
 
 	if (tune_playing) {
-		watch_set_indicator(tune_playing_indicator);
+		watch_set_indicator(playing_indicator);
 	} else {
-		watch_clear_indicator(tune_playing_indicator);
+		watch_clear_indicator(playing_indicator);
 	}
+
+    if (tune_looping) {
+		watch_set_indicator(looping_indicator);
+    } else {
+        watch_clear_indicator(looping_indicator);
+    }
 }
 
 static void play_tune(soundboard_state_t* state) {
@@ -204,7 +211,7 @@ static void on_tune_end() {
         }
 
         tune_playing = false;
-        watch_clear_indicator(tune_playing_indicator);
+        watch_clear_indicator(playing_indicator);
     }
 }
 
