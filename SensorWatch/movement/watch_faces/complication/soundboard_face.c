@@ -36,7 +36,7 @@ typedef struct {
 static const uint8_t tune_count = 14;
 
 static tune_entry tunes[] = {
-	{ "A-Ha  ", take_on_me_tune },
+    { "A-Ha  ", take_on_me_tune },
     { "Homecm" , homecoming_tune },
     { " Ghost", friendly_ghost_tune },
     { "Airflo", airflow_tune },
