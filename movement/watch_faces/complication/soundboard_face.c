@@ -30,18 +30,19 @@
 
 typedef struct {
     char name[7];
-	int8_t* notes;
+    int8_t* notes;
 } tune_entry;
 
-static const uint8_t tune_count = 13;
+static const uint8_t tune_count = 14;
 
 static tune_entry tunes[] = {
+	{ "A-Ha  ", take_on_me_tune },
     { "Homecm" , homecoming_tune },
     { " Ghost", friendly_ghost_tune },
     { "Airflo", airflow_tune },
     { " Fairy", zelda_fairy_tune },
     { "Thomas", thomas_theme_tune },
-	{ "Secret", zelda_secret_tune },
+    { "Secret", zelda_secret_tune },
     { " Mario", mario_theme_tune },
     { " MGS  ", mgs_codec_tune },
     { " Pssbl", kim_possible_tune },
@@ -57,7 +58,7 @@ static const WatchIndicatorSegment looping_indicator = WATCH_INDICATOR_24H;
 
 static volatile bool tune_playing = false;
 static volatile bool tune_looping = false;
-static tune_entry* last_tune_played = NULL;
+static volatile tune_entry* last_tune_played = NULL;
 
 static void soundboard_face_update_lcd(soundboard_state_t* state);
 static void play_tune(soundboard_state_t* state);
@@ -82,7 +83,7 @@ void soundboard_face_activate(movement_settings_t *settings, void *context) {
 
     // Handle any tasks related to your watch face coming on screen.
     stop_tune();
-	state->tune_index = 0;
+    state->tune_index = 0;
     tune_looping = false;
 }
 
@@ -111,7 +112,7 @@ bool soundboard_face_loop(movement_event_t event, movement_settings_t *settings,
             soundboard_face_update_lcd(state);
             break;
         }
-            
+
         case EVENT_ALARM_BUTTON_UP: {
             if (!tune_playing) {
                 play_tune(state);
@@ -124,11 +125,11 @@ bool soundboard_face_loop(movement_event_t event, movement_settings_t *settings,
         }
 
         case EVENT_ALARM_LONG_PRESS: {
-			tune_looping = !tune_looping;
+            tune_looping = !tune_looping;
             soundboard_face_update_lcd(state);
             break;
         }
-           
+
         case EVENT_TIMEOUT:
             // Your watch face will receive this event after a period of inactivity. If it makes sense to resign,
             // you may uncomment this line to move back to the first watch face in the list:
@@ -175,14 +176,14 @@ static void soundboard_face_update_lcd(soundboard_state_t* state) {
     sprintf(buf, "%s% 2u%s", face_name, (state->tune_index + 1), entry->name);
     watch_display_string(buf, 0);
 
-	if (tune_playing) {
-		watch_set_indicator(playing_indicator);
-	} else {
-		watch_clear_indicator(playing_indicator);
-	}
+    if (tune_playing) {
+        watch_set_indicator(playing_indicator);
+    } else {
+        watch_clear_indicator(playing_indicator);
+    }
 
     if (tune_looping) {
-		watch_set_indicator(looping_indicator);
+        watch_set_indicator(looping_indicator);
     } else {
         watch_clear_indicator(looping_indicator);
     }
