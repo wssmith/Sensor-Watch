@@ -269,7 +269,7 @@ bool clock_face_loop(movement_event_t event, movement_settings_t *settings, void
         case EVENT_BACKGROUND_TASK:
             // uncomment this line to snap back to the clock face when the hour signal sounds:
             // movement_move_to_face(state->watch_face_index);
-            movement_play_tune()
+            movement_play_signal();
             break;
         default:
             return movement_default_loop_handler(event, settings);

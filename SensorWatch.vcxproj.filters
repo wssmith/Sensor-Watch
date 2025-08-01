@@ -1044,6 +1044,9 @@
     <ClCompile Include="movement\watch_faces\complication\soundboard_face.c">
       <Filter>Source Files\movement\watch_faces\complication</Filter>
     </ClCompile>
+    <ClCompile Include="movement\watch_faces\complication\soundboard_tunes.c">
+      <Filter>Source Files\movement\watch_faces\complication</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="movement\filesystem.h">
